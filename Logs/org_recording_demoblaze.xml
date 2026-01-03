@@ -2220,60 +2220,6 @@ Sec-Fetch-Dest: empty
   <java.net.URL>https://api.demoblaze.com/entries</java.net.URL>
 </httpSample>
 
-<httpSample t="769" it="0" lt="769" ct="501" ts="1767360007433" s="true" lb="N-Logout-564" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2608" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
-  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
-Date: Fri, 02 Jan 2026 13:20:08 GMT
-Pragma: no-cache
-Expires: -1
-Cache-Control: no-cache, must-revalidate
-Content-Type: text/javascript; charset=UTF-8
-Strict-Transport-Security: max-age=31536000
-Content-Security-Policy: object-src &apos;none&apos;;base-uri &apos;self&apos;;script-src &apos;nonce-BKnZnILMmRU6j67im8Jn-g&apos; &apos;strict-dynamic&apos; &apos;report-sample&apos; &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; https: http:;report-uri https://csp.withgoogle.com/csp/gws/cdt1
-Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to=&quot;gws&quot;
-Report-To: {&quot;group&quot;:&quot;gws&quot;,&quot;max_age&quot;:2592000,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://csp.withgoogle.com/csp/report-to/gws/cdt1&quot;}]}
-Accept-CH: Sec-CH-Prefers-Color-Scheme
-Accept-CH: Downlink
-Accept-CH: RTT
-Accept-CH: Sec-CH-UA-Form-Factors
-Accept-CH: Sec-CH-UA-Platform
-Accept-CH: Sec-CH-UA-Platform-Version
-Accept-CH: Sec-CH-UA-Full-Version
-Accept-CH: Sec-CH-UA-Arch
-Accept-CH: Sec-CH-UA-Model
-Accept-CH: Sec-CH-UA-Bitness
-Accept-CH: Sec-CH-UA-Full-Version-List
-Accept-CH: Sec-CH-UA-WoW64
-Permissions-Policy: unload=()
-Content-Disposition: attachment; filename=&quot;f.txt&quot;
-Server: gws
-X-XSS-Protection: 0
-X-Frame-Options: SAMEORIGIN
-Transfer-Encoding: chunked
-Set-Cookie: SIDCC=AKEyXzVKGCGuI1YgL1dtOsHEPm1ZhV9LWQjpTBM2Jco_EECHPXx1lmHifzkoY0G6wgoIyXOzL8c; expires=Sat, 02-Jan-2027 13:20:08 GMT; path=/; domain=.google.com; priority=high
-Set-Cookie: __Secure-1PSIDCC=AKEyXzV60izRYtq8_iu_KkOq8c5fEMCLfwwveE3xtIURSbg10nGxfXEpJMTCcMWBExGtTZdfTUTV; expires=Sat, 02-Jan-2027 13:20:08 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
-Set-Cookie: __Secure-3PSIDCC=AKEyXzUgCImBMIP_uRDqcaEBWVaYVgZ5MhC7d1VttxJnzG0HcYLfmN19zwOYh1sxg5nSa1D0J8GY; expires=Sat, 02-Jan-2027 13:20:08 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
-Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
-Connection: close
-Content-Encoding: br
-</responseHeader>
-  <requestHeader class="java.lang.String">Connection: close
-Sec-Fetch-Mode: no-cors
-Sec-Fetch-Site: none
-Accept-Language: en-US,en;q=0.9,ar;q=0.8
-X-Client-Data: CJS2yQEIpbbJAQipncoBCLH3ygEIlqHLAQiFoM0BCJaMzwEIpZHPAQimms8BCLaizwEI1KPPAQiRpM8BCJqlzwEYsobPARjxos8B
-Host: www.google.com
-Accept-Encoding: gzip, deflate, br, zstd
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
-Sec-Fetch-Dest: empty
-</requestHeader>
-  <responseData class="java.lang.String">)]}&apos;
-[&quot;&quot;,[&quot;where cookie data generated from client side&quot;,&quot;ahmed-fawzy-devops/automated-testing-framework-for-a-web-application-depi&quot;,&quot;demoblaze jmeter github&quot;,&quot;demoblaze automation github&quot;,&quot;add local host to foxyproxy extension&quot;,&quot;foxyproxy extension&quot;,&quot;denoblaze test github&quot;,&quot;complete purchase&quot;],[&quot;history&quot;,&quot;history&quot;,&quot;history&quot;,&quot;history&quot;,&quot;history&quot;,&quot;history&quot;,&quot;history&quot;,&quot;history&quot;],[],{&quot;google:clientdata&quot;:{&quot;bpc&quot;:false,&quot;tlw&quot;:false},&quot;google:suggestdetail&quot;:[{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003dwhere+cookie+data+generated+from+client+side\u0026deltok\u003dAMc44K4hP_Urh7mLVqVwDXoGTRxoYYb1Cg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003dahmed-fawzy-devops/automated-testing-framework-for-a-web-application-depi\u0026deltok\u003dAMc44K6Z7n9ggDFnyuJBjF1QPGiU55afng\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003ddemoblaze+jmeter+github\u0026deltok\u003dAMc44K7DG6Gh_PqMupATfGfBwaje6kaXTQ\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003ddemoblaze+automation+github\u0026deltok\u003dAMc44K4C73tiRo5kBKyuyQqlozkYVW2kmg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003dadd+local+host+to+foxyproxy+extension\u0026deltok\u003dAMc44K6UDukuigfL1xkOk3fUqoF_rRb-Bg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003dfoxyproxy+extension\u0026deltok\u003dAMc44K749oMed36VVjmpJ2NRu11d8tr3Gg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003ddenoblaze+test+github\u0026deltok\u003dAMc44K4WxMBf2cWU9B0bIhbsvpNDtwejbg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003dcomplete+purchase\u0026deltok\u003dAMc44K6guZnqUKi-FVp6fECfGkkMoHHMFg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000}],&quot;google:suggesteventid&quot;:&quot;-1513481632898916422&quot;,&quot;google:suggestrelevance&quot;:[704,703,702,701,700,652,651,650],&quot;google:suggestsubtypes&quot;:[[362,39],[362,39],[362,39],[362,39],[362,39],[362,39],[362,39],[362,39]],&quot;google:suggesttype&quot;:[&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;],&quot;google:verbatimrelevance&quot;:851}]</responseData>
-  <responseFile class="java.lang.String"></responseFile>
-  <cookies class="java.lang.String">HSID=AyJ_ADIzpqoKfsbjg; SSID=AMd8q3Y1bfREQ5D9V; APISID=syCnWW99x-dlaKlV/Al7kTIscYci0h7fzx; SAPISID=Xl4EV7Q0EKO0CpBG/AzHiZQZEpIOrCiQSG; __Secure-1PAPISID=Xl4EV7Q0EKO0CpBG/AzHiZQZEpIOrCiQSG; __Secure-3PAPISID=Xl4EV7Q0EKO0CpBG/AzHiZQZEpIOrCiQSG; SEARCH_SAMESITE=CgQIxJ8B; SID=g.a0004ggkYWnEHWcySm6jZm_xvtngryQbZCaQpWk59oQ4w0vnvJu_snZdHb1NaaDgOCVJSGOb8QACgYKATgSARESFQHGX2MiFXvFmpouNf7HkrUepnwzaRoVAUF8yKpdD7LI16LV7RAryV47mqSh0076; __Secure-1PSID=g.a0004ggkYWnEHWcySm6jZm_xvtngryQbZCaQpWk59oQ4w0vnvJu_dAGYF4xb5VMTflC8pKQm_wACgYKASESARESFQHGX2MirM-riiS1lodEHmpc1JqqMxoVAUF8yKoRCHQ9wsp908m9IGVwdZKL0076; __Secure-3PSID=g.a0004ggkYWnEHWcySm6jZm_xvtngryQbZCaQpWk59oQ4w0vnvJu_50rA9hWYnszJaS17Ovx2DAACgYKAdQSARESFQHGX2Mi4x_4mw2r8kKPXxR9nA7AohoVAUF8yKoubtaz4QO5GochQnZDDKJZ0076; __Secure-BUCKET=CMMB; AEC=AaJma5t6VeGnu4FRL_gUX4GJ8DmL24T41Uha_9nwsDRL9PECttp_datmGw; __Secure-ENID=30.SE=HnXcjmnJzCrocDE3hyf8oHpMEW6S0mCeasXH07hFyrkA_adjpGH88PNW3PWdZJIJj1_IO_VL-Ch4cItzPyT8_LSQp-m3VtmcYlEZTI487BMwblCnfi2-XsUku7JgZtyDwLls6EIDrl9TLpkS42ixJKMRMIuWq21oJsHg__BNPW8THm6McF7ysgN0WFx63zqdUBehqiWxCBfBXtNvEo56lfwnVWt1BAarQS_Hoz7lGtiKLKOJIVH3fqHDPyRWmAh2B6Nv9GKKWdTKUIRLHHAEU-jHyEiz15kfjBfuXhC01idJuHfoxMh6Ll2NgRIIYxgpyIgQRhDY; NID=527=LB-TBLRidTb-0AVO8GOSSPFwQrUwH14qqmM2putaN5LTG87Co5DOHC1Gq0nY4Y5xuFE1nh-vAfIhbIdJwW4C24SodWAe6xIR1GkCn1DDfaT_URaAw7Jq-_Fug62pEOBHIzK4wrkYXQNs56PGCY1mMw9mPZA-LLSh5TMOBDbZktvGjRcmVSpRNBhsvBIkUoEoGFweq__y2MYRwBmiPh_N7gL6ditSD6liauos_OT9S5tVlCj7dDHOpos4S1XE8YgA5tiPnFerqpYqTC00w_r8cnuvznaKvP5D3rmCdsDkKlwHWF1CIYt7px6HqeD06XfaIeT3y84v0Mq_CQsGdRerD-n_qSTYsBk_9t1jZyMviqY4Xrf_GZO1nMfuJM-SNWp2EuFEJAL3A_KMeM4D1lHorYabr5gUQUgzntWUd9eYeEVBDaCUkWOhCm36iOX8kEsXu2BtS3-pWbIB1GhbZebWb1geKov8NtTznMyKhtJeirNUP8ADzQ6p61kJ6XWv_5eMVcUf3GL_9RedocVHogYT4IuHqdiz5lslGo69QCsNqN3ZefsFC48IAH4JWQi6ku_9; __Secure-1PSIDTS=sidts-CjEBflaCdRlCgP6DBWT0uJu0TivkYvHodFVoAZ14wTDQRoojkLXCsghbcXpHofSFTGgvEAA; __Secure-3PSIDTS=sidts-CjEBflaCdRlCgP6DBWT0uJu0TivkYvHodFVoAZ14wTDQRoojkLXCsghbcXpHofSFTGgvEAA; SIDCC=AKEyXzV9ktTcLIzGOv7clpJmCYRxtj6UXSBjYjWeFzTbrVl81hDVgUfjGEUuqSRn6-jZG7PZZuY; __Secure-1PSIDCC=AKEyXzU5BtqrOTjPRsEy_Bq95nCAxFG52fOj-4GRNSoDfCHwOJe5F-78b0S1mS8YjDYuvAug9mRT; __Secure-3PSIDCC=AKEyXzVwXLtlqoRIFJZ2czyNJ0ivwl_VLX1e-390qV0_QIrIcQVlhZiA3MRgFmDCLCR_ocRib0n6</cookies>
-  <method class="java.lang.String">GET</method>
-  <queryString class="java.lang.String"></queryString>
-  <java.net.URL>https://www.google.com/complete/search?client=chrome-omni&amp;gs_ri=chrome-ext-ansg&amp;xssi=t&amp;q=&amp;oit=0&amp;gs_rn=42&amp;sugkey=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE</java.net.URL>
-</httpSample>
 <httpSample t="835" it="0" lt="835" ct="629" ts="1767360008219" s="true" lb="N-Logout-565" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="806" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
   <responseHeader class="java.lang.String">HTTP/1.1 200 OK
 Report-To: {&quot;group&quot;:&quot;ntbdioescrec:47:0&quot;,&quot;max_age&quot;:2592000,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://csp.withgoogle.com/csp/report-to/scaffolding/ntbdioescrec:47:0&quot;}],}
