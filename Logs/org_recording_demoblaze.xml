@@ -1,0 +1,2519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+
+<httpSample t="604" it="0" lt="0" ct="384" ts="1767356642082" s="true" lb="Landing Page-450" rc="304" rm="Not Modified" tn="" dt="" de="" by="184" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 02 Jan 2026 12:24:02 GMT
+Expires: Fri, 02 Jan 2026 12:24:12 GMT
+Age: 0
+ETag: &quot;cET1bQ&quot;
+Cache-Control: public, max-age=10
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+If-None-Match: &quot;cET1bQ&quot;
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/</java.net.URL>
+</httpSample>
+<httpSample t="499" it="0" lt="0" ct="286" ts="1767356644356" s="true" lb="Landing Page-467" rc="304" rm="Not Modified" tn="" dt="" de="" by="184" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 02 Jan 2026 12:24:04 GMT
+Expires: Fri, 02 Jan 2026 12:24:14 GMT
+Age: 0
+ETag: &quot;cET1bQ&quot;
+Cache-Control: public, max-age=10
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+If-None-Match: &quot;cET1bQ&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Accept: application/json, text/javascript, */*; q=0.01
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+X-Requested-With: XMLHttpRequest
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/config.json</java.net.URL>
+</httpSample>
+<httpSample t="952" it="0" lt="952" ct="641" ts="1767356644866" s="true" lb="Landing Page-469" rc="200" rm="OK" tn="" dt="text" de="" by="1633" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: 9a77fdc411e9e4897cc5d381720527e6
+date: Fri, 02 Jan 2026 12:24:05 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Items&quot;:[{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420\n processor and it comes with 3GB of RAM. The phone packs 32GB of \ninternal storage cannot be expanded. &quot;,&quot;id&quot;:1,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:360.0,&quot;title&quot;:&quot;Samsung galaxy s6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM. &quot;,&quot;id&quot;:2,&quot;img&quot;:&quot;imgs/Lumia_1520.jpg&quot;,&quot;price&quot;:820.0,&quot;title&quot;:&quot;Nokia lumia 1520&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM.&quot;,&quot;id&quot;:3,&quot;img&quot;:&quot;imgs/Nexus_6.jpg&quot;,&quot;price&quot;:650.0,&quot;title&quot;:&quot;Nexus 6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB \nof RAM. The phone packs 32GB of internal storage that can be expanded up\n to 200GB via a microSD card.&quot;,&quot;id&quot;:4,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:800.0,&quot;title&quot;:&quot;Samsung galaxy s7&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;It comes with 1GB of RAM. The phone packs 16GB of internal storage \ncannot be expanded. As far as the cameras are concerned, the Apple \niPhone 6 packs a 8-megapixel primary camera on the rear and a \n1.2-megapixel front shooter for selfies.&quot;,&quot;id&quot;:5,&quot;img&quot;:&quot;imgs/iphone_6.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Iphone 6 32gb&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;Sony Xperia Z5 Dual smartphone was launched in September 2015. The phone\n comes with a 5.20-inch touchscreen display with a resolution of 1080 \npixels by 1920 pixels at a PPI of 424 pixels per inch.&quot;,&quot;id&quot;:6,&quot;img&quot;:&quot;imgs/xperia_z5.jpg&quot;,&quot;price&quot;:320.0,&quot;title&quot;:&quot;Sony xperia z5&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 \nprocessor and it comes with 3GB of RAM. The phone packs 32GB of internal\n storage that can be expanded up to 128GB via a microSD card. &quot;,&quot;id&quot;:7,&quot;img&quot;:&quot;imgs/HTC_M9.jpg&quot;,&quot;price&quot;:700.0,&quot;title&quot;:&quot;HTC One M9&quot;},{&quot;cat&quot;:&quot;notebook&quot;,&quot;desc&quot;:&quot;Sony is so confident that the VAIO S is a superior ultraportable laptop \nthat the company proudly compares the notebook to Apple&apos;s 13-inch \nMacBook Pro. And in a lot of ways this notebook is better, thanks to a \nlighter weight.&quot;,&quot;id&quot;:8,&quot;img&quot;:&quot;imgs/sony_vaio_5.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Sony vaio i5&quot;},{&quot;cat&quot;:&quot;notebook&quot;,&quot;desc&quot;:&quot;REVIEW\n \nSony is so confident that the VAIO S is a superior \nultraportable laptop that the company proudly compares the notebook to \nApple&apos;s 13-inch MacBook Pro. And in a lot of ways this notebook is \nbetter, thanks to a lighter weight, higher-resolution display, more \nstorage space, and a Blu-ray drive. &quot;,&quot;id&quot;:9,&quot;img&quot;:&quot;imgs/sony_vaio_5.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Sony vaio i7\n&quot;}],&quot;LastEvaluatedKey&quot;:{&quot;id&quot;:&quot;9&quot;}}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/entries</java.net.URL>
+</httpSample>
+<httpSample t="728" it="0" lt="728" ct="492" ts="1767356645761" s="true" lb="Landing Page-470" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="1308" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Access-Control-Allow-Origin: https://drive.google.com
+Cross-Origin-Resource-Policy: cross-origin
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Playlog-Web
+Content-Type: text/plain; charset=UTF-8
+Date: Fri, 02 Jan 2026 12:24:06 GMT
+Server: Playlog
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: SIDCC=AKEyXzUbW8Iv1At9Owr2pCMLKA88qLX89gZgUUEdkxAT2lUWB3HJSSrjNG_tXz5ychckYs1ANgI; expires=Sat, 02-Jan-2027 12:24:06 GMT; path=/; domain=.google.com; priority=high
+Set-Cookie: __Secure-1PSIDCC=AKEyXzURVU4OMi9Sea6Sb6GDqs7rGwhJrxjVD8KUi4IkbmmQCPg9mGDBmS9trWu_oZWqg3JT2L4f; expires=Sat, 02-Jan-2027 12:24:06 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
+Set-Cookie: __Secure-3PSIDCC=AKEyXzVpbtg-JPkuZsynxHpFby0q0uKtoUKSP2W26SGrh0wS1VzpQO9z4oq02e9O4O28qEuxzyXt; expires=Sat, 02-Jan-2027 12:24:06 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Expires: Fri, 02 Jan 2026 12:24:06 GMT
+Cache-Control: private
+Connection: close
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+X-Browser-Year: 2025
+Referer: https://drive.google.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://drive.google.com
+X-Browser-Validation: UujAs0GAwdnCJ9nvrswZ+O+oco0=
+Accept: */*
+X-Browser-Channel: stable
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+X-Client-Data: CJS2yQEIpbbJAQipncoBCLH3ygEIlqHLAQiFoM0BCJaMzwEIpZHPAQimms8BCLaizwEI1KPPAQiRpM8BCJqlzwEYsobPARjxos8B
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: play.google.com
+Content-Type: text/plain;charset=UTF-8
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+X-Browser-Copyright: Copyright 2025 Google LLC. All Rights reserved.
+Sec-Fetch-Dest: empty
+Content-Length: 574
+</requestHeader>
+  <responseData class="java.lang.String">[&quot;-1&quot;,null,[[[&quot;ANDROID_BACKUP&quot;,0],[&quot;BATTERY_STATS&quot;,0],[&quot;SMART_SETUP&quot;,0],[&quot;TRON&quot;,0]],-3334737594024971225],[],{&quot;175237375&quot;:[10000]}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">HSID=AyJ_ADIzpqoKfsbjg; SSID=AMd8q3Y1bfREQ5D9V; APISID=syCnWW99x-dlaKlV/Al7kTIscYci0h7fzx; SAPISID=Xl4EV7Q0EKO0CpBG/AzHiZQZEpIOrCiQSG; __Secure-1PAPISID=Xl4EV7Q0EKO0CpBG/AzHiZQZEpIOrCiQSG; __Secure-3PAPISID=Xl4EV7Q0EKO0CpBG/AzHiZQZEpIOrCiQSG; _gcl_au=1.1.736975865.1759585809; OSID=g.a0003ggkYQ88ilWvSo8NvtHHewgmF8SKCew_lw-9bMi17m5WrVp9j3AaBQkDsIGmo-YGgbSzRAACgYKAcMSARESFQHGX2MirzfFdKy8lo4QZ08IRxBtixoVAUF8yKodOD53VSYhI0XMVZ6ufBKp0076; __Secure-OSID=g.a0003ggkYQ88ilWvSo8NvtHHewgmF8SKCew_lw-9bMi17m5WrVp9wHHk5Q1uxf0hmPBqhivkeAACgYKAVcSARESFQHGX2Miq4i8vl_SWkEpzsclufjsJRoVAUF8yKrjTANaXyluJBSxQvOKLcid0076; _ga=GA1.1.157283598.1713801474; _ga_6VGGZHMLM2=GS2.1.s1763624241$o11$g0$t1763624243$j58$l0$h0; SEARCH_SAMESITE=CgQIxJ8B; SID=g.a0004ggkYWnEHWcySm6jZm_xvtngryQbZCaQpWk59oQ4w0vnvJu_snZdHb1NaaDgOCVJSGOb8QACgYKATgSARESFQHGX2MiFXvFmpouNf7HkrUepnwzaRoVAUF8yKpdD7LI16LV7RAryV47mqSh0076; __Secure-1PSID=g.a0004ggkYWnEHWcySm6jZm_xvtngryQbZCaQpWk59oQ4w0vnvJu_dAGYF4xb5VMTflC8pKQm_wACgYKASESARESFQHGX2MirM-riiS1lodEHmpc1JqqMxoVAUF8yKoRCHQ9wsp908m9IGVwdZKL0076; __Secure-3PSID=g.a0004ggkYWnEHWcySm6jZm_xvtngryQbZCaQpWk59oQ4w0vnvJu_50rA9hWYnszJaS17Ovx2DAACgYKAdQSARESFQHGX2Mi4x_4mw2r8kKPXxR9nA7AohoVAUF8yKoubtaz4QO5GochQnZDDKJZ0076; __Secure-BUCKET=CMMB; AEC=AaJma5t6VeGnu4FRL_gUX4GJ8DmL24T41Uha_9nwsDRL9PECttp_datmGw; __Secure-ENID=30.SE=HnXcjmnJzCrocDE3hyf8oHpMEW6S0mCeasXH07hFyrkA_adjpGH88PNW3PWdZJIJj1_IO_VL-Ch4cItzPyT8_LSQp-m3VtmcYlEZTI487BMwblCnfi2-XsUku7JgZtyDwLls6EIDrl9TLpkS42ixJKMRMIuWq21oJsHg__BNPW8THm6McF7ysgN0WFx63zqdUBehqiWxCBfBXtNvEo56lfwnVWt1BAarQS_Hoz7lGtiKLKOJIVH3fqHDPyRWmAh2B6Nv9GKKWdTKUIRLHHAEU-jHyEiz15kfjBfuXhC01idJuHfoxMh6Ll2NgRIIYxgpyIgQRhDY; NID=527=LB-TBLRidTb-0AVO8GOSSPFwQrUwH14qqmM2putaN5LTG87Co5DOHC1Gq0nY4Y5xuFE1nh-vAfIhbIdJwW4C24SodWAe6xIR1GkCn1DDfaT_URaAw7Jq-_Fug62pEOBHIzK4wrkYXQNs56PGCY1mMw9mPZA-LLSh5TMOBDbZktvGjRcmVSpRNBhsvBIkUoEoGFweq__y2MYRwBmiPh_N7gL6ditSD6liauos_OT9S5tVlCj7dDHOpos4S1XE8YgA5tiPnFerqpYqTC00w_r8cnuvznaKvP5D3rmCdsDkKlwHWF1CIYt7px6HqeD06XfaIeT3y84v0Mq_CQsGdRerD-n_qSTYsBk_9t1jZyMviqY4Xrf_GZO1nMfuJM-SNWp2EuFEJAL3A_KMeM4D1lHorYabr5gUQUgzntWUd9eYeEVBDaCUkWOhCm36iOX8kEsXu2BtS3-pWbIB1GhbZebWb1geKov8NtTznMyKhtJeirNUP8ADzQ6p61kJ6XWv_5eMVcUf3GL_9RedocVHogYT4IuHqdiz5lslGo69QCsNqN3ZefsFC48IAH4JWQi6ku_9; __Secure-1PSIDTS=sidts-CjEBflaCdTF75NvNGpJ1_5PfFwEtVLH_Y-2c5D18MMvzH5Q2-GXJSQjPc5oitF2C9g2qEAA; __Secure-3PSIDTS=sidts-CjEBflaCdTF75NvNGpJ1_5PfFwEtVLH_Y-2c5D18MMvzH5Q2-GXJSQjPc5oitF2C9g2qEAA; __Secure-STRP=AD6DogtAreZR9iRvF_UBY5BZBLF8TR748chYUfTdqcs8-tLbBU798C484DnLKGEl3ZhFuBRGIW6Zjvtg1iSQg55mrkRKFcDMHpPr; SIDCC=AKEyXzXbC5MyeqfBRVhKyU7k_yl9T7-MoccRwI4MorJUoeq_toJ2e4kEGk2vuvhOu_aePXkbDqw; __Secure-1PSIDCC=AKEyXzVbXqXUNIz2ER4OFTh8IuUzQTLJXxSiYWoNji-uqBKHy10klGaYAdIIwyGBUizJGO6a9dhm; __Secure-3PSIDCC=AKEyXzXyNkbglpQcfPIWhqlZ7QXv7MMqpKoQ-Q49ICxdvEIqKNuF0idCk5NAKaM7ajfwwNzNEvSH</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">[[1,null,null,null,null,null,null,null,null,null,[null,null,null,null,null,null,&quot;53&quot;,null,[[[&quot;Google Chrome&quot;,&quot;143&quot;],[&quot;Chromium&quot;,&quot;143&quot;],[&quot;Not A(Brand&quot;,&quot;24&quot;]],0,&quot;Windows&quot;,&quot;15.0.0&quot;,&quot;x86&quot;,&quot;&quot;,&quot;143.0.7499.170&quot;],[3,0]]],1828,[[1767356645751,null,null,null,null,null,null,&quot;[[[\&quot;/client_streamz/bg/frs\&quot;,null,[\&quot;mk\&quot;],[[[[\&quot;_\&quot;]],[null,1844]]]],[\&quot;/client_streamz/bg/ec\&quot;,null,[\&quot;en\&quot;,\&quot;mk\&quot;],[[[[\&quot;n\&quot;],[\&quot;_\&quot;]],[1]]]],[\&quot;/client_streamz/bg/el\&quot;,null,[\&quot;en\&quot;,\&quot;mk\&quot;],[[[[\&quot;n\&quot;],[\&quot;_\&quot;]],[null,3]]]]]]&quot;,null,null,null,null,null,null,-7200,null,null,null,null,null,23]],1767356645752]</queryString>
+  <java.net.URL>https://play.google.com/log?hasfast=true&amp;auth=SAPISIDHASH+0d51abb1e4791e733408a4eeaf392d21b54e1273+SAPISID1PHASH+0d51abb1e4791e733408a4eeaf392d21b54e1273+SAPISID3PHASH+0d51abb1e4791e733408a4eeaf392d21b54e1273&amp;authuser=0&amp;format=json</java.net.URL>
+</httpSample>
+<httpSample t="740" it="0" lt="740" ct="357" ts="1767356646354" s="true" lb="Landing Page-477" rc="200" rm="OK" tn="" dt="text" de="" by="520" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 02 Jan 2026 12:24:07 GMT
+Content-Type: text/plain
+Content-Length: 0
+Connection: close
+Access-Control-Allow-Headers: Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type
+Access-Control-Allow-Methods: GET, OPTIONS
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src &apos;none&apos;
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1;mode=block
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Sec-Fetch-Storage-Access: active
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen
+Accept: */*
+Host: extension.femetrics.grammarly.io
+Content-Type: text/plain;charset=UTF-8
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 5764
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">[{&quot;name&quot;:&quot;extension.bgStarted&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:1,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;status&quot;,&quot;value&quot;:&quot;success&quot;},{&quot;key&quot;:&quot;type&quot;,&quot;value&quot;:&quot;wakeUp&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;unknown&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.mint_sdk_client_initialized&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:1,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;environment&quot;,&quot;value&quot;:&quot;production&quot;},{&quot;key&quot;:&quot;sdk_version&quot;,&quot;value&quot;:&quot;0.0.0-dev&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;unknown&quot;},{&quot;key&quot;:&quot;value&quot;,&quot;value&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.bgPageStarted&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:1,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;context&quot;,&quot;value&quot;:&quot;wakeUp&quot;},{&quot;key&quot;:&quot;time&quot;,&quot;value&quot;:&quot;301000&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;unknown&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.oauthGetAccessTokenSuccess&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:1,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;ignoreCache&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;key&quot;:&quot;tokenStatus&quot;,&quot;value&quot;:&quot;valid&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;unknown&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.authz_api_status&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:1,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;clientId&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;clientVersion&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;domain&quot;,&quot;value&quot;:&quot;gateway.grammarly.com&quot;},{&quot;key&quot;:&quot;method&quot;,&quot;value&quot;:&quot;GET&quot;},{&quot;key&quot;:&quot;pathname&quot;,&quot;value&quot;:&quot;authorship/v1/user/{id}/settings&quot;},{&quot;key&quot;:&quot;scheme&quot;,&quot;value&quot;:&quot;https:&quot;},{&quot;key&quot;:&quot;status&quot;,&quot;value&quot;:&quot;success&quot;},{&quot;key&quot;:&quot;statusCode&quot;,&quot;value&quot;:&quot;200&quot;},{&quot;key&quot;:&quot;tokenTypes&quot;,&quot;value&quot;:&quot;access_token_and_grauth&quot;},{&quot;key&quot;:&quot;uri&quot;,&quot;value&quot;:&quot;gateway.grammarly.com/authorship/v1/user/{id}/settings&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;Free&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.checkingFetchTreatmentsSuccess&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:9,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;domain&quot;,&quot;value&quot;:&quot;other&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;Free&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.checkScriptInitialized&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:2,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;domain&quot;,&quot;value&quot;:&quot;other&quot;},{&quot;key&quot;:&quot;firstInstall&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;isExtensionEnabled&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;isIframe&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;key&quot;:&quot;registrationDate&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;Free&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.checkScriptInitialized&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:5,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;domain&quot;,&quot;value&quot;:&quot;other&quot;},{&quot;key&quot;:&quot;firstInstall&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;isExtensionEnabled&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;isIframe&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;registrationDate&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;Free&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.checkingFetchTreatmentsSuccess&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:2,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;domain&quot;,&quot;value&quot;:&quot;google.com&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;Free&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.checkScriptInitialized&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:2,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;domain&quot;,&quot;value&quot;:&quot;google.com&quot;},{&quot;key&quot;:&quot;firstInstall&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;isExtensionEnabled&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;isIframe&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;key&quot;:&quot;registrationDate&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;Free&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.csInitialized&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:1,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;domain&quot;,&quot;value&quot;:&quot;youtube.com&quot;},{&quot;key&quot;:&quot;firstInstall&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;isAnnotatedTextEnabled&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;isExtensionEnabled&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;isIframe&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;registrationDate&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;Free&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;},{&quot;key&quot;:&quot;wasCheckScriptInitialized&quot;,&quot;value&quot;:&quot;false&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.csInitialized&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:1,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;domain&quot;,&quot;value&quot;:&quot;other&quot;},{&quot;key&quot;:&quot;firstInstall&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;isAnnotatedTextEnabled&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;isExtensionEnabled&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;isIframe&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;registrationDate&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;Free&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;},{&quot;key&quot;:&quot;wasCheckScriptInitialized&quot;,&quot;value&quot;:&quot;false&quot;}],&quot;report_interval&quot;:&quot;5m&quot;},{&quot;name&quot;:&quot;extension.csInitialized&quot;,&quot;type&quot;:&quot;counter&quot;,&quot;value&quot;:1,&quot;labels&quot;:[{&quot;key&quot;:&quot;client&quot;,&quot;value&quot;:&quot;chromeExt&quot;},{&quot;key&quot;:&quot;domain&quot;,&quot;value&quot;:&quot;google.com&quot;},{&quot;key&quot;:&quot;firstInstall&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;isAnnotatedTextEnabled&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;isExtensionEnabled&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;key&quot;:&quot;isIframe&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;key&quot;:&quot;registrationDate&quot;,&quot;value&quot;:&quot;moreThan3Months&quot;},{&quot;key&quot;:&quot;userType&quot;,&quot;value&quot;:&quot;Free&quot;},{&quot;key&quot;:&quot;version&quot;,&quot;value&quot;:&quot;14.1266.0&quot;},{&quot;key&quot;:&quot;versionInt&quot;,&quot;value&quot;:&quot;1412660000&quot;},{&quot;key&quot;:&quot;wasCheckScriptInitialized&quot;,&quot;value&quot;:&quot;true&quot;}],&quot;report_interval&quot;:&quot;5m&quot;}]</queryString>
+  <java.net.URL>https://extension.femetrics.grammarly.io/batch/import</java.net.URL>
+</httpSample>
+<httpSample t="1060" it="0" lt="1060" ct="770" ts="1767356650113" s="true" lb="Login-479" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="464" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: e15035e72441b24982530c59deb50d6a
+date: Fri, 02 Jan 2026 12:24:11 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/login</java.net.URL>
+</httpSample>
+<httpSample t="859" it="0" lt="858" ct="501" ts="1767356651182" s="true" lb="Login-480" rc="200" rm="OK" tn="" dt="text" de="" by="562" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: 7b6a11b9f08e1e2992e6c95bb263184a;o=1
+date: Fri, 02 Jan 2026 12:24:11 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 47
+</requestHeader>
+  <responseData class="java.lang.String">&quot;Auth_token: QWJuYWJ5MTc2Nzk1Ng==&quot;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;username&quot;:&quot;Abnaby&quot;,&quot;password&quot;:&quot;MTIzNDU2Nzg5&quot;}</queryString>
+  <java.net.URL>https://api.demoblaze.com/login</java.net.URL>
+</httpSample>
+<httpSample t="580" it="0" lt="0" ct="286" ts="1767356652057" s="true" lb="Login-481" rc="304" rm="Not Modified" tn="" dt="" de="" by="258" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+date: Fri, 02 Jan 2026 12:24:12 GMT
+expires: Fri, 02 Jan 2026 12:24:22 GMT
+cache-control: public, max-age=10
+etag: &quot;cET1bQ&quot;
+x-cloud-trace-context: 68ef3519fdf6387ed96baa4168c5f410
+server: Google Frontend
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://demoblaze.com/
+If-None-Match: &quot;cET1bQ&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2; tokenp_=QWJuYWJ5MTc2Nzk1Ng==</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/</java.net.URL>
+</httpSample>
+<httpSample t="755" it="0" lt="755" ct="467" ts="1767356652752" s="true" lb="Login-482" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="464" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: 94a4a04ab31fe9161813676679347b58
+date: Fri, 02 Jan 2026 12:24:13 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/check</java.net.URL>
+</httpSample>
+<httpSample t="781" it="0" lt="780" ct="468" ts="1767356652758" s="true" lb="Login-483" rc="200" rm="OK" tn="" dt="text" de="" by="1503" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: 4e9230595e845393b93cefccf7e046d2
+date: Fri, 02 Jan 2026 12:24:13 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Items&quot;:[{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420\n processor and it comes with 3GB of RAM. The phone packs 32GB of \ninternal storage cannot be expanded. &quot;,&quot;id&quot;:1,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:360.0,&quot;title&quot;:&quot;Samsung galaxy s6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM. &quot;,&quot;id&quot;:2,&quot;img&quot;:&quot;imgs/Lumia_1520.jpg&quot;,&quot;price&quot;:820.0,&quot;title&quot;:&quot;Nokia lumia 1520&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM.&quot;,&quot;id&quot;:3,&quot;img&quot;:&quot;imgs/Nexus_6.jpg&quot;,&quot;price&quot;:650.0,&quot;title&quot;:&quot;Nexus 6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB \nof RAM. The phone packs 32GB of internal storage that can be expanded up\n to 200GB via a microSD card.&quot;,&quot;id&quot;:4,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:800.0,&quot;title&quot;:&quot;Samsung galaxy s7&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;It comes with 1GB of RAM. The phone packs 16GB of internal storage \ncannot be expanded. As far as the cameras are concerned, the Apple \niPhone 6 packs a 8-megapixel primary camera on the rear and a \n1.2-megapixel front shooter for selfies.&quot;,&quot;id&quot;:5,&quot;img&quot;:&quot;imgs/iphone_6.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Iphone 6 32gb&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;Sony Xperia Z5 Dual smartphone was launched in September 2015. The phone\n comes with a 5.20-inch touchscreen display with a resolution of 1080 \npixels by 1920 pixels at a PPI of 424 pixels per inch.&quot;,&quot;id&quot;:6,&quot;img&quot;:&quot;imgs/xperia_z5.jpg&quot;,&quot;price&quot;:320.0,&quot;title&quot;:&quot;Sony xperia z5&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 \nprocessor and it comes with 3GB of RAM. The phone packs 32GB of internal\n storage that can be expanded up to 128GB via a microSD card. &quot;,&quot;id&quot;:7,&quot;img&quot;:&quot;imgs/HTC_M9.jpg&quot;,&quot;price&quot;:700.0,&quot;title&quot;:&quot;HTC One M9&quot;},{&quot;cat&quot;:&quot;notebook&quot;,&quot;desc&quot;:&quot;Sony is so confident that the VAIO S is a superior ultraportable laptop \nthat the company proudly compares the notebook to Apple&apos;s 13-inch \nMacBook Pro. And in a lot of ways this notebook is better, thanks to a \nlighter weight.&quot;,&quot;id&quot;:8,&quot;img&quot;:&quot;imgs/sony_vaio_5.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Sony vaio i5&quot;},{&quot;cat&quot;:&quot;notebook&quot;,&quot;desc&quot;:&quot;REVIEW\n \nSony is so confident that the VAIO S is a superior \nultraportable laptop that the company proudly compares the notebook to \nApple&apos;s 13-inch MacBook Pro. And in a lot of ways this notebook is \nbetter, thanks to a lighter weight, higher-resolution display, more \nstorage space, and a Blu-ray drive. &quot;,&quot;id&quot;:9,&quot;img&quot;:&quot;imgs/sony_vaio_5.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Sony vaio i7\n&quot;}],&quot;LastEvaluatedKey&quot;:{&quot;id&quot;:&quot;9&quot;}}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/entries</java.net.URL>
+</httpSample>
+<httpSample t="799" it="0" lt="799" ct="485" ts="1767356653516" s="true" lb="Login-485" rc="200" rm="OK" tn="" dt="text" de="" by="518" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: 2041c39550155e0bf2bfc59bb8841fac
+date: Fri, 02 Jan 2026 12:24:14 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 32
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Item&quot;:{&quot;expiration&quot;:1767956,&quot;token&quot;:&quot;QWJuYWJ5MTc2Nzk1Ng==&quot;,&quot;username&quot;:&quot;Abnaby&quot;}}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;token&quot;:&quot;QWJuYWJ5MTc2Nzk1Ng==&quot;}</queryString>
+  <java.net.URL>https://api.demoblaze.com/check</java.net.URL>
+</httpSample>
+<httpSample t="819" it="0" lt="819" ct="608" ts="1767356653516" s="true" lb="Login-484" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="806" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Report-To: {&quot;group&quot;:&quot;ntbdioescrec:47:0&quot;,&quot;max_age&quot;:2592000,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://csp.withgoogle.com/csp/report-to/scaffolding/ntbdioescrec:47:0&quot;}],}
+NEL: {&quot;failure_fraction&quot;:1,&quot;include_subdomains&quot;:false,&quot;max_age&quot;:300,&quot;report_to&quot;:&quot;nel&quot;,&quot;success_fraction&quot;:0.25}
+Content-Type: application/javascript; charset=utf-8
+Content-Security-Policy-Report-Only: script-src &apos;none&apos;; form-action &apos;none&apos;; frame-src &apos;none&apos;; report-uri https://csp.withgoogle.com/csp/scaffolding/ntbdioescrec:47:0
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to=ntbdioescrec:47:0
+Date: Fri, 02 Jan 2026 12:24:14 GMT
+Server: Domain Reliability Server
+Content-Length: 0
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Host: beacons.gcp.gvt2.com
+Content-Type: application/json; charset=utf-8
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Content-Length: 1961
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;entries&quot;:[{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;&quot;,&quot;request_age_ms&quot;:60457,&quot;request_elapsed_ms&quot;:264,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://www.google.com/&quot;,&quot;was_proxied&quot;:false},{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;&quot;,&quot;request_age_ms&quot;:53686,&quot;request_elapsed_ms&quot;:151,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://www.google.com/&quot;,&quot;was_proxied&quot;:false},{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;&quot;,&quot;request_age_ms&quot;:53534,&quot;request_elapsed_ms&quot;:229,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://www.google.com/&quot;,&quot;was_proxied&quot;:false},{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;&quot;,&quot;request_age_ms&quot;:53304,&quot;request_elapsed_ms&quot;:212,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://www.google.com/&quot;,&quot;was_proxied&quot;:false},{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;&quot;,&quot;request_age_ms&quot;:53092,&quot;request_elapsed_ms&quot;:100,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://www.google.com/&quot;,&quot;was_proxied&quot;:false},{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;&quot;,&quot;request_age_ms&quot;:52241,&quot;request_elapsed_ms&quot;:193,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://www.google.com/&quot;,&quot;was_proxied&quot;:false},{&quot;http_response_code&quot;:200,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;QUIC&quot;,&quot;request_age_ms&quot;:48541,&quot;request_elapsed_ms&quot;:224,&quot;sample_rate&quot;:0.05,&quot;server_ip&quot;:&quot;142.250.75.132:443&quot;,&quot;status&quot;:&quot;ok&quot;,&quot;url&quot;:&quot;https://www.google.com/&quot;,&quot;was_proxied&quot;:false},{&quot;http_response_code&quot;:204,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;QUIC&quot;,&quot;request_age_ms&quot;:44211,&quot;request_elapsed_ms&quot;:208,&quot;sample_rate&quot;:0.05,&quot;server_ip&quot;:&quot;142.250.75.132:443&quot;,&quot;status&quot;:&quot;ok&quot;,&quot;url&quot;:&quot;https://www.google.com/&quot;,&quot;was_proxied&quot;:false}],&quot;reporter&quot;:&quot;chrome&quot;}</queryString>
+  <java.net.URL>https://beacons.gcp.gvt2.com/domainreliability/upload</java.net.URL>
+</httpSample>
+<httpSample t="770" it="0" lt="770" ct="473" ts="1767356664382" s="true" lb="Select Category-486" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="468" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: 9c4f19c920bbbe015f5b8728fc6be7b4;o=1
+date: Fri, 02 Jan 2026 12:24:25 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/bycat</java.net.URL>
+</httpSample>
+<httpSample t="789" it="0" lt="788" ct="469" ts="1767356665167" s="true" lb="Select Category-487" rc="200" rm="OK" tn="" dt="text" de="" by="1412" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: a46b6ecbb52c2253ab45e758b471b6e1
+date: Fri, 02 Jan 2026 12:24:25 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 15
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Items&quot;:[{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420\n processor and it comes with 3GB of RAM. The phone packs 32GB of \ninternal storage cannot be expanded. &quot;,&quot;id&quot;:1,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:360.0,&quot;title&quot;:&quot;Samsung galaxy s6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM. &quot;,&quot;id&quot;:2,&quot;img&quot;:&quot;imgs/Lumia_1520.jpg&quot;,&quot;price&quot;:820.0,&quot;title&quot;:&quot;Nokia lumia 1520&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM.&quot;,&quot;id&quot;:3,&quot;img&quot;:&quot;imgs/Nexus_6.jpg&quot;,&quot;price&quot;:650.0,&quot;title&quot;:&quot;Nexus 6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB \nof RAM. The phone packs 32GB of internal storage that can be expanded up\n to 200GB via a microSD card.&quot;,&quot;id&quot;:4,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:800.0,&quot;title&quot;:&quot;Samsung galaxy s7&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;It comes with 1GB of RAM. The phone packs 16GB of internal storage \ncannot be expanded. As far as the cameras are concerned, the Apple \niPhone 6 packs a 8-megapixel primary camera on the rear and a \n1.2-megapixel front shooter for selfies.&quot;,&quot;id&quot;:5,&quot;img&quot;:&quot;imgs/iphone_6.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Iphone 6 32gb&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;Sony Xperia Z5 Dual smartphone was launched in September 2015. The phone\n comes with a 5.20-inch touchscreen display with a resolution of 1080 \npixels by 1920 pixels at a PPI of 424 pixels per inch.&quot;,&quot;id&quot;:6,&quot;img&quot;:&quot;imgs/xperia_z5.jpg&quot;,&quot;price&quot;:320.0,&quot;title&quot;:&quot;Sony xperia z5&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 \nprocessor and it comes with 3GB of RAM. The phone packs 32GB of internal\n storage that can be expanded up to 128GB via a microSD card. &quot;,&quot;id&quot;:7,&quot;img&quot;:&quot;imgs/HTC_M9.jpg&quot;,&quot;price&quot;:700.0,&quot;title&quot;:&quot;HTC One M9&quot;}]}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;cat&quot;:&quot;phone&quot;}</queryString>
+  <java.net.URL>https://api.demoblaze.com/bycat</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="google-ohttp-relay-safebrowsing.fastly-edge.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1289" sc="1" ec="1" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT google-ohttp-relay-safebrowsing.fastly-edge.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="538" it="0" lt="533" ct="279" ts="1767356673628" s="true" lb="Select Product-488" rc="200" rm="OK" tn="" dt="text" de="" by="5653" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+date: Fri, 02 Jan 2026 12:24:34 GMT
+expires: Fri, 02 Jan 2026 12:24:44 GMT
+cache-control: public, max-age=10
+etag: &quot;cET1bQ&quot;
+x-cloud-trace-context: 98f278ac4b81411316c6496090bf1d1f;o=1
+content-type: text/html
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;blazemeter-favicon-32x32.png&quot;&gt;
+  &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;512x512&quot; href=&quot;blazemeter-favicon-512x512.png&quot;&gt;
+  &lt;link rel=&quot;apple-touch-icon&quot; href=&quot;blazemeter-favicon-512x512.png&quot;&gt;
+
+  &lt;title&gt;STORE&lt;/title&gt;
+  &lt;!-- Bootstrap core CSS --&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;link href=&quot;node_modules/bootstrap/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link href=&quot;node_modules/video.js/dist/video-js.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link href=&quot;css/latofonts.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+  &lt;link href=&quot;css/latostyle.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+  &lt;style&gt;
+    body {
+      font-size: 11pt;
+    }
+
+    nav {
+      /*background-color: #e7e7e7*/
+      background: linear-gradient(135deg, #4c00ff, #00cfff);
+      box-shadow: 0 2px 10px rgba(0, 102, 204, 0.3);
+    }
+
+    /*      .fixed-top{
+        position:absolute;
+
+      } */
+
+    #footc {
+      padding-bottom: 3rem;
+      padding-top: 3rem;
+      /*background-color: #e7e7e7*/
+      background: linear-gradient(135deg, #4c00ff, #00cfff);
+      box-shadow: 0 2px 10px rgba(0, 102, 204, 0.3);
+      color: white;
+    }
+
+    nav a {
+      color: white;
+      /*font-family: Lato;*/
+      font-size: 16px;
+      font-weight: bold;
+      /*color: #868688;*/
+    }
+
+    #itemc {
+      /*color:white;*/
+      /*font-family: Lato;*/
+      font-size: 20px;
+      font-weight: bold;
+      color: #666;
+    }
+
+    nav a:hover {
+      color: #00aaff;
+      text-decoration: none;
+      text-shadow: 0 0 8px rgba(0, 170, 255, 0.5);
+    }
+
+    #nava {
+      color: white;
+      text-decoration: none;
+    }
+
+    .navbar-toggle .icon-bar {
+      background-color: #868688;
+    }
+
+    .starter-template {
+      padding: 40px 15px;
+      text-align: center;
+    }
+
+    .video-js {
+      margin: 0 auto;
+    }
+
+    input {
+      margin-top: 15px;
+      min-width: 450px;
+      padding: 5px;
+    }
+
+    #next2 {
+      cursor: pointer;
+      float: right;
+    }
+
+    .navbar-toggleable-md&gt;.container {
+      align-self: flex-start;
+    }
+
+
+    .py-5 {
+      padding-bottom: 1rem !important;
+      padding-top: 1rem !important;
+    }
+
+    #fotcont {
+      margin-left: 10%;
+    }
+
+    /*#divcarcont{
+  align-self: flex-end;
+}*/
+
+    html,
+    body {
+      max-width: 100%;
+      padding: 0px !important;
+      overflow-x: hidden;
+    }
+
+
+
+
+
+
+    .product-content {
+      border: 1px solid #dfe5e9;
+      margin-bottom: 20px;
+      margin-top: 12px;
+      background: #fff
+    }
+
+    .product-content .carousel-control.left {
+      margin-left: 0
+    }
+
+    .product-content .product-image {
+      background-color: #fff;
+      display: block;
+      min-height: 238px;
+      overflow: hidden;
+      position: relative
+    }
+
+    .product-content .product-deatil {
+      border-bottom: 1px solid #dfe5e9;
+      padding-bottom: 17px;
+      padding-left: 16px;
+      padding-top: 16px;
+      position: relative;
+      background: #fff
+    }
+
+    .product-content .product-deatil h5 a {
+      color: #2f383d;
+      font-size: 15px;
+      line-height: 19px;
+      text-decoration: none;
+      padding-left: 0;
+      margin-left: 0
+    }
+
+    .product-content .product-deatil h5 a span {
+      color: #9aa7af;
+      display: block;
+      font-size: 13px
+    }
+
+    .product-content .product-deatil span.tag1 {
+      border-radius: 50%;
+      color: #fff;
+      font-size: 15px;
+      height: 50px;
+      padding: 13px 0;
+      position: absolute;
+      right: 10px;
+      text-align: center;
+      top: 10px;
+      width: 50px
+    }
+
+    .product-content .product-deatil span.sale {
+      background-color: #21c2f8
+    }
+
+    .product-content .product-deatil span.discount {
+      background-color: #71e134
+    }
+
+    .product-content .product-deatil span.hot {
+      background-color: #fa9442
+    }
+
+    .product-content .description {
+      font-size: 12.5px;
+      line-height: 20px;
+      padding: 10px 14px 16px 19px;
+      background: #fff
+    }
+
+    .product-content .product-info {
+      padding: 11px 19px 10px 20px
+    }
+
+    .product-content .product-info a.add-to-cart {
+      color: #2f383d;
+      font-size: 13px;
+      padding-left: 16px
+    }
+
+    .product-content name.a {
+      padding: 5px 10px;
+      margin-left: 16px
+    }
+
+    .product-info.smart-form .btn {
+      padding: 6px 12px;
+      margin-left: 12px;
+      margin-top: -10px
+    }
+
+    .product-entry .product-deatil {
+      border-bottom: 1px solid #dfe5e9;
+      padding-bottom: 17px;
+      padding-left: 16px;
+      padding-top: 16px;
+      position: relative
+    }
+
+    .product-entry .product-deatil h5 a {
+      color: #2f383d;
+      font-size: 15px;
+      line-height: 19px;
+      text-decoration: none
+    }
+
+    .product-entry .product-deatil h5 a span {
+      color: #9aa7af;
+      display: block;
+      font-size: 13px
+    }
+
+    .load-more-btn {
+      background-color: #21c2f8;
+      border-bottom: 2px solid #037ca5;
+      border-radius: 2px;
+      border-top: 2px solid #0cf;
+      margin-top: 20px;
+      padding: 9px 0;
+      width: 100%
+    }
+
+    .product-block .product-deatil p.price-container span,
+    .product-content .product-deatil p.price-container span,
+    .product-entry .product-deatil p.price-container span,
+    .shipping table tbody tr td p.price-container span,
+    .shopping-items table tbody tr td p.price-container span {
+      color: #21c2f8;
+      font-family: Lato, sans-serif;
+      font-size: 24px;
+      line-height: 20px
+    }
+
+    .product-info.smart-form .rating label {
+      margin-top: 0
+    }
+
+    .product-wrap .product-image span.tag2 {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      padding: 10px 0;
+      color: #fff;
+      font-size: 11px;
+      text-align: center
+    }
+
+    .product-wrap .product-image span.sale {
+      background-color: #57889c
+    }
+
+    .product-wrap .product-image span.hot {
+      background-color: #a90329
+    }
+
+    .shop-btn {
+      position: relative
+    }
+
+    .shop-btn&gt;span {
+      background: #a90329;
+      display: inline-block;
+      font-size: 10px;
+      box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+      font-weight: 700;
+      border-radius: 50%;
+      padding: 2px 4px 3px !important;
+      text-align: center;
+      line-height: normal;
+      width: 19px;
+      top: -7px;
+      left: -7px
+    }
+
+    .description-tabs {
+      padding: 30px 0 5px !important
+    }
+
+    .description-tabs .tab-content {
+      padding: 10px 0
+    }
+
+    .product-deatil {
+      padding: 30px 30px 50px
+    }
+
+    .product-deatil hr+.description-tabs {
+      padding: 0 0 5px !important
+    }
+
+    .product-deatil .carousel-control.left,
+    .product-deatil .carousel-control.right {
+      background: none !important
+    }
+
+    .product-deatil .glyphicon {
+      color: #3276b1
+    }
+
+    .product-deatil .product-image {
+      border-right: none !important
+    }
+
+    .product-deatil .name {
+      margin-top: 0;
+      margin-bottom: 0
+    }
+
+    .product-deatil .name small {
+      display: block
+    }
+
+    .product-deatil .name a {
+      margin-left: 0
+    }
+
+    .product-deatil .price-container {
+      font-size: 24px;
+      margin: 0;
+      font-weight: 300
+    }
+
+    .product-deatil .price-container small {
+      font-size: 12px
+    }
+
+    .product-deatil .fa-2x {
+      font-size: 16px !important
+    }
+
+    .product-deatil .fa-2x&gt;h5 {
+      font-size: 12px;
+      margin: 0
+    }
+
+    .product-deatil .fa-2x+a,
+    .product-deatil .fa-2x+a+a {
+      font-size: 13px
+    }
+
+    .profile-message ul {
+      list-style: none;
+    }
+
+    .product-deatil .certified {
+      margin-top: 10px
+    }
+
+    .product-deatil .certified ul {
+      padding-left: 0
+    }
+
+    .product-deatil .certified ul li:not(first-child) {
+      margin-left: -3px
+    }
+
+    .product-deatil .certified ul li {
+      display: inline-block;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 13px 19px
+    }
+
+    .product-deatil .certified ul li:first-child {
+      border-right: none
+    }
+
+    .product-deatil .certified ul li a {
+      text-align: left;
+      font-size: 12px;
+      color: #6d7a83;
+      line-height: 16px;
+      text-decoration: none
+    }
+
+    .product-deatil .certified ul li a span {
+      display: block;
+      color: #21c2f8;
+      font-size: 13px;
+      font-weight: 700;
+      text-align: center
+    }
+
+    .product-deatil .message-text {
+      width: calc(100% - 70px)
+    }
+
+    @media only screen and (min-width:1024px) {
+      .product-content div[class*=col-md-4] {
+        padding-right: 0
+      }
+
+      .product-content div[class*=col-md-8] {
+        padding: 0 13px 0 0
+      }
+
+      .product-wrap div[class*=col-md-5] {
+        padding-right: 0
+      }
+
+      .product-wrap div[class*=col-md-7] {
+        padding: 0 13px 0 0
+      }
+
+      .product-content .product-image {
+        border-right: 1px solid #dfe5e9
+      }
+
+      .product-content .product-info {
+        position: relative
+      }
+    }
+
+    #more-information {
+      opacity: 1;
+    }
+
+    .message img.online {
+      width: 40px;
+      height: 40px;
+    }
+
+    a:focus {
+      color: white;
+    }
+
+    .navbar-nav {
+      display: flex;
+    }
+
+    .navbar-toggleable-md .navbar-nav {
+      -moz-box-direction: normal;
+      -moz-box-orient: horizontal;
+      flex-direction: row;
+    }
+
+    .ml-auto {
+      margin-left: auto !important;
+    }
+
+    .navbar-collapse {
+      flex-basis: 44% !important;
+    }
+
+    .navbar-toggleable-md .navbar-nav .nav-link {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    .navbar-toggleable-md .navbar-collapse {
+      /*display: contents;*/
+      width: 100%;
+    }
+
+    .btn-success {
+      background-color: #34a853 !important;
+      border-color: #34a853 !important;
+      color: white !important;
+    }
+
+    .btn-success:hover {
+      background-color: #2d8f47 !important;
+      border-color: #2d8f47 !important;
+    }
+
+    #footc .thumbnail {
+      border: 1px solid transparent !important;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;!-- modal --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;exampleModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;exampleModalLabel&quot;
+    aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;exampleModalLabel&quot;&gt;New message&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;recipient-name&quot; class=&quot;form-control-label&quot;&gt;Contact Email:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;recipient-email&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;recipient-name&quot; class=&quot;form-control-label&quot;&gt;Contact Name:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;recipient-name&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;message-text&quot; class=&quot;form-control-label&quot;&gt;Message:&lt;/label&gt;
+              &lt;textarea class=&quot;form-control&quot; id=&quot;message-text&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+          &lt;button type=&quot;button&quot; onclick=&quot;send()&quot; class=&quot;btn btn-primary&quot;&gt;Send message&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+  &lt;!-- end modal --&gt;
+
+  &lt;!-- modal SignIn --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;signInModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;signInModalLabel&quot;
+    aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;signInModalLabel&quot;&gt;Sign up&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;sign-username&quot; class=&quot;form-control-label&quot;&gt;Username:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;sign-username&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;sign-password&quot; class=&quot;form-control-label&quot;&gt;Password:&lt;/label&gt;
+              &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;sign-password&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label id=&quot;errors&quot; style=&quot;color:red&quot; class=&quot;form-control-label&quot;&gt;&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+          &lt;button type=&quot;button&quot; onClick=&quot;register()&quot; class=&quot;btn btn-primary&quot;&gt;Sign up&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- end modal --&gt;
+
+  &lt;!-- modal logIn --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;logInModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;logInModalLabel&quot;
+    aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;logInModalLabel&quot;&gt;Log in&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;log-name&quot; class=&quot;form-control-label&quot;&gt;Username:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;loginusername&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;log-pass&quot; class=&quot;form-control-label&quot;&gt;Password:&lt;/label&gt;
+              &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;loginpassword&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;log-pass&quot; id=&quot;errorl&quot; class=&quot;form-control-label&quot;&gt;&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+          &lt;button type=&quot;button&quot; onClick=&quot;logIn()&quot; class=&quot;btn btn-primary&quot;&gt;Log in&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- end modal --&gt;
+
+  &lt;!-- modal video --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;videoModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;logInModalLabel&quot;
+    aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;logInModalLabel&quot;&gt;About us&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;video poster=&quot;imgs/front.jpg&quot; id=example-video width=400 height=320 class=&quot;video-js&quot; controls&gt;
+              &lt;/video&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- end modal --&gt;
+  &lt;!-- Navigation --&gt;
+  &lt;nav style=&quot;height:90px&quot; class=&quot;navbar navbar-toggleable-md bg-inverse&quot;&gt;
+    &lt;button class=&quot;navbar-toggler navbar-toggler-right&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;
+      data-target=&quot;#navbarExample&quot; aria-controls=&quot;navbarExample&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+      &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;a class=&quot;navbar-brand&quot; id=&quot;nava&quot; href=&quot;index.html&quot;&gt;&lt;img width=50 height=50 style=&quot;margin-right:10px&quot;
+          src=&quot;blazemeter-favicon-512x512.png&quot;&gt; PRODUCT STORE&lt;/a&gt;
+      &lt;div class=&quot;navbar-collapse&quot; id=&quot;navbarExample&quot;&gt;
+        &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;
+          &lt;li class=&quot;nav-item active&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;index.html&quot;&gt;Home &lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;nav-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; data-toggle=&quot;modal&quot; data-target=&quot;#exampleModal&quot; href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;nav-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; data-toggle=&quot;modal&quot; data-target=&quot;#videoModal&quot; href=&quot;#&quot;&gt;About us&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;nav-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;cart.html&quot; id=&quot;cartur&quot;&gt;Cart&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;nav-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; id=&quot;login2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#logInModal&quot;&gt;Log in&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;nav-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; style=&quot;display:none&quot; id=&quot;logout2&quot; onClick=&quot;logOut()&quot;&gt;Log out&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;nav-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; style=&quot;display:none&quot; id=&quot;nameofuser&quot;&gt;&lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class=&quot;nav-item&quot;&gt;
+            &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; id=&quot;signin2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#signInModal&quot;&gt;Sign up&lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+  &lt;/nav&gt;
+
+  &lt;/div&gt;
+
+  &lt;!-- product --&gt;
+  &lt;div class=&quot;product-content product-wrap clearfix product-deatil&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-5 col-sm-12 col-xs-12 &quot;&gt;
+        &lt;div class=&quot;product-image&quot;&gt;
+          &lt;div id=&quot;myCarousel-2&quot; class=&quot;carousel slide&quot;&gt;
+            &lt;ol class=&quot;carousel-indicators&quot;&gt;
+              &lt;li data-target=&quot;#myCarousel-2&quot; data-slide-to=&quot;0&quot; class=&quot;&quot;&gt;&lt;/li&gt;
+              &lt;li data-target=&quot;#myCarousel-2&quot; data-slide-to=&quot;1&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+              &lt;li data-target=&quot;#myCarousel-2&quot; data-slide-to=&quot;2&quot; class=&quot;&quot;&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+            &lt;div class=&quot;carousel-inner&quot; id=&quot;imgp&quot;&gt;
+            &lt;/div&gt;
+            &lt;a class=&quot;left carousel-control&quot; href=&quot;#myCarousel-2&quot; data-slide=&quot;prev&quot;&gt;&lt;/a&gt;
+            &lt;a class=&quot;right carousel-control&quot; href=&quot;#myCarousel-2&quot; data-slide=&quot;next&quot;&gt;&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-md-7 col-sm-12 col-xs-12&quot; id=&quot;tbodyid&quot;&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;script src=&quot;node_modules/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/video.js/dist/video.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/tether/dist/js/tether.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;js/prod.js&quot;&gt;&lt;/script&gt;
+
+  &lt;div id=&quot;footc&quot;&gt;
+    &lt;div id=&quot;fotcont&quot; class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-sm-4 col-lg-4 col-md-4&quot;&gt;
+        &lt;div class=&quot;thumbnail&quot;&gt;
+          &lt;div class=&quot;caption&quot;&gt;
+            &lt;h4 class=&quot;grrrr&quot;&gt;&lt;b&gt;About Us&lt;/b&gt;&lt;/h4&gt;
+            &lt;p&gt;We believe performance needs to be validated at every stage of the software development cycle and our
+              open source compatible, massively scalable platform makes that a reality.&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-sm-3 col-lg-3 col-md-3&quot;&gt;
+        &lt;div class=&quot;thumbnail&quot;&gt;
+          &lt;div class=&quot;caption&quot;&gt;
+            &lt;h4 class=&quot;grrrr&quot;&gt;&lt;b&gt;Get in Touch&lt;/b&gt;&lt;/h4&gt;
+            &lt;p&gt;Address: 2390 El Camino Real&lt;/p&gt;
+            &lt;p&gt;Phone: +440 123456&lt;/p&gt;
+            &lt;p&gt;Email: demo@blazemeter.com &lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-sm-4 col-lg-4 col-md-4&quot;&gt;
+        &lt;div class=&quot;thumbnail&quot;&gt;
+          &lt;div class=&quot;caption&quot;&gt;
+            &lt;h4&gt;&lt;img width=50 height=50 style=&quot;margin-right:10px&quot; src=&quot;blazemeter-favicon-512x512.png&quot;&gt; PRODUCT STORE&lt;/h4&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+    &lt;footer class=&quot;py-5 bg-inverse&quot;&gt;
+      &lt;p class=&quot;m-0 text-center text-white&quot;&gt;Copyright &amp;copy; Product Store&lt;/p&gt;
+    &lt;/footer&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2; tokenp_=QWJuYWJ5MTc2Nzk1Ng==</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/prod.html?idp_=2</java.net.URL>
+</httpSample>
+<httpSample t="505" it="0" lt="0" ct="292" ts="1767356675276" s="true" lb="Select Product-501" rc="304" rm="Not Modified" tn="" dt="" de="" by="184" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 02 Jan 2026 12:24:35 GMT
+Expires: Fri, 02 Jan 2026 12:24:45 GMT
+Age: 0
+ETag: &quot;cET1bQ&quot;
+Cache-Control: public, max-age=10
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/prod.html?idp_=2
+If-None-Match: &quot;cET1bQ&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Accept: application/json, text/javascript, */*; q=0.01
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+X-Requested-With: XMLHttpRequest
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2; tokenp_=QWJuYWJ5MTc2Nzk1Ng==</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/config.json</java.net.URL>
+</httpSample>
+<httpSample t="757" it="0" lt="757" ct="471" ts="1767356675815" s="true" lb="Select Product-503" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="464" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: fa2b2f65a4b4078ac4d0fadf6a1770e2
+date: Fri, 02 Jan 2026 12:24:36 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/view</java.net.URL>
+</httpSample>
+<httpSample t="763" it="0" lt="763" ct="472" ts="1767356675809" s="true" lb="Select Product-502" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="464" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: 92f0bc1fc1514956622c371e3ed62e66
+date: Fri, 02 Jan 2026 12:24:36 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/check</java.net.URL>
+</httpSample>
+<httpSample t="765" it="0" lt="765" ct="572" ts="1767356676588" s="true" lb="Select Product-506" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="806" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Report-To: {&quot;group&quot;:&quot;ntbdioescrec:47:0&quot;,&quot;max_age&quot;:2592000,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://csp.withgoogle.com/csp/report-to/scaffolding/ntbdioescrec:47:0&quot;}],}
+NEL: {&quot;failure_fraction&quot;:1,&quot;include_subdomains&quot;:false,&quot;max_age&quot;:300,&quot;report_to&quot;:&quot;nel&quot;,&quot;success_fraction&quot;:0.25}
+Content-Type: application/javascript; charset=utf-8
+Content-Security-Policy-Report-Only: script-src &apos;none&apos;; form-action &apos;none&apos;; frame-src &apos;none&apos;; report-uri https://csp.withgoogle.com/csp/scaffolding/ntbdioescrec:47:0
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to=ntbdioescrec:47:0
+Date: Fri, 02 Jan 2026 12:24:37 GMT
+Server: Domain Reliability Server
+Content-Length: 0
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Host: beacons.gcp.gvt2.com
+Content-Type: application/json; charset=utf-8
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Content-Length: 269
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;entries&quot;:[{&quot;http_response_code&quot;:200,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;QUIC&quot;,&quot;request_age_ms&quot;:60532,&quot;request_elapsed_ms&quot;:215,&quot;sample_rate&quot;:0.05,&quot;server_ip&quot;:&quot;142.250.75.110:443&quot;,&quot;status&quot;:&quot;ok&quot;,&quot;url&quot;:&quot;https://www.youtube.com/&quot;,&quot;was_proxied&quot;:false}],&quot;reporter&quot;:&quot;chrome&quot;}</queryString>
+  <java.net.URL>https://beacons.gcp.gvt2.com/domainreliability/upload</java.net.URL>
+</httpSample>
+<httpSample t="773" it="0" lt="773" ct="472" ts="1767356676588" s="true" lb="Select Product-505" rc="200" rm="OK" tn="" dt="text" de="" by="652" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: c4b918cbe9581810aa35151cbc5f75fa
+date: Fri, 02 Jan 2026 12:24:37 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 32
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Item&quot;:{&quot;expiration&quot;:1767956,&quot;token&quot;:&quot;QWJuYWJ5MTc2Nzk1Ng==&quot;,&quot;username&quot;:&quot;Abnaby&quot;}}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;token&quot;:&quot;QWJuYWJ5MTc2Nzk1Ng==&quot;}</queryString>
+  <java.net.URL>https://api.demoblaze.com/check</java.net.URL>
+</httpSample>
+<httpSample t="867" it="0" lt="866" ct="473" ts="1767356676584" s="true" lb="Select Product-504" rc="200" rm="OK" tn="" dt="text" de="" by="722" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: 63dcf378f8c46d8ed5cbbd72400cf4f1
+date: Fri, 02 Jan 2026 12:24:37 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 10
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM. &quot;,&quot;id&quot;:2,&quot;img&quot;:&quot;imgs/Lumia_1520.jpg&quot;,&quot;price&quot;:820.0,&quot;title&quot;:&quot;Nokia lumia 1520&quot;}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;id&quot;:&quot;2&quot;}</queryString>
+  <java.net.URL>https://api.demoblaze.com/view</java.net.URL>
+</httpSample>
+<httpSample t="768" it="0" lt="768" ct="480" ts="1767356679514" s="true" lb="Select Product-508" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="464" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: 00056eb10f8e39fc39f84d1e2089fdcd
+date: Fri, 02 Jan 2026 12:24:40 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/addtocart</java.net.URL>
+</httpSample>
+<httpSample t="828" it="0" lt="828" ct="470" ts="1767356680292" s="true" lb="Select Product-509" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="322" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+vary: Origin
+x-cloud-trace-context: ce193a9b4258b770e989da3411535e6a
+date: Fri, 02 Jan 2026 12:24:40 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 101
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;id&quot;:&quot;94d8ae4a-7f02-78cb-40ff-b5c241c567e7&quot;,&quot;cookie&quot;:&quot;QWJuYWJ5MTc2Nzk1Ng==&quot;,&quot;prod_id&quot;:2,&quot;flag&quot;:true}</queryString>
+  <java.net.URL>https://api.demoblaze.com/addtocart</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="google-ohttp-relay-safebrowsing.fastly-edge.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1289" sc="1" ec="1" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT google-ohttp-relay-safebrowsing.fastly-edge.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="498" it="0" lt="0" ct="284" ts="1767356689602" s="true" lb="Complete Purchase-510" rc="304" rm="Not Modified" tn="" dt="" de="" by="184" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 02 Jan 2026 12:24:50 GMT
+Expires: Fri, 02 Jan 2026 12:25:00 GMT
+Age: 0
+ETag: &quot;cET1bQ&quot;
+Cache-Control: public, max-age=10
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://demoblaze.com/prod.html?idp_=2
+If-None-Match: &quot;cET1bQ&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2; tokenp_=QWJuYWJ5MTc2Nzk1Ng==</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/cart.html</java.net.URL>
+</httpSample>
+<httpSample t="505" it="0" lt="0" ct="285" ts="1767356691681" s="true" lb="Complete Purchase-525" rc="304" rm="Not Modified" tn="" dt="" de="" by="184" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 02 Jan 2026 12:24:52 GMT
+Expires: Fri, 02 Jan 2026 12:25:02 GMT
+Age: 0
+ETag: &quot;cET1bQ&quot;
+Cache-Control: public, max-age=10
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/cart.html
+If-None-Match: &quot;cET1bQ&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Accept: application/json, text/javascript, */*; q=0.01
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+X-Requested-With: XMLHttpRequest
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2; tokenp_=QWJuYWJ5MTc2Nzk1Ng==</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/config.json</java.net.URL>
+</httpSample>
+<httpSample t="752" it="0" lt="752" ct="466" ts="1767356692201" s="true" lb="Complete Purchase-526" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="464" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: a0f1495692b2597925ca62c0fa2c2725
+date: Fri, 02 Jan 2026 12:24:52 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/check</java.net.URL>
+</httpSample>
+<httpSample t="761" it="0" lt="761" ct="471" ts="1767356692207" s="true" lb="Complete Purchase-527" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="464" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: 37a38b84308be333b59bbd0a5b3bacea
+date: Fri, 02 Jan 2026 12:24:52 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/viewcart</java.net.URL>
+</httpSample>
+<httpSample t="794" it="0" lt="794" ct="470" ts="1767356692963" s="true" lb="Complete Purchase-528" rc="200" rm="OK" tn="" dt="text" de="" by="588" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: c92515e0927c55472d9b80df386d5c5d
+date: Fri, 02 Jan 2026 12:24:53 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 32
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Item&quot;:{&quot;expiration&quot;:1767956,&quot;token&quot;:&quot;QWJuYWJ5MTc2Nzk1Ng==&quot;,&quot;username&quot;:&quot;Abnaby&quot;}}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;token&quot;:&quot;QWJuYWJ5MTc2Nzk1Ng==&quot;}</queryString>
+  <java.net.URL>https://api.demoblaze.com/check</java.net.URL>
+</httpSample>
+<httpSample t="801" it="0" lt="801" ct="468" ts="1767356692977" s="true" lb="Complete Purchase-529" rc="200" rm="OK" tn="" dt="text" de="" by="622" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: 545e54297fbf11ee73280e77cbc24cba
+date: Fri, 02 Jan 2026 12:24:53 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 45
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Items&quot;:[{&quot;cookie&quot;:&quot;Abnaby&quot;,&quot;id&quot;:&quot;94d8ae4a-7f02-78cb-40ff-b5c241c567e7&quot;,&quot;prod_id&quot;:2}]}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;cookie&quot;:&quot;QWJuYWJ5MTc2Nzk1Ng==&quot;,&quot;flag&quot;:true}</queryString>
+  <java.net.URL>https://api.demoblaze.com/viewcart</java.net.URL>
+</httpSample>
+<httpSample t="762" it="0" lt="762" ct="472" ts="1767356693788" s="true" lb="Complete Purchase-530" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="464" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: bf0b3cbb7bb7b30456fdce869f21ba9a
+date: Fri, 02 Jan 2026 12:24:54 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/view</java.net.URL>
+</httpSample>
+<httpSample t="1607" it="0" lt="1606" ct="466" ts="1767356694558" s="true" lb="Complete Purchase-531" rc="200" rm="OK" tn="" dt="text" de="" by="704" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: 427cdc3bb81c95b01be0186f8186e89c
+date: Fri, 02 Jan 2026 12:24:56 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 8
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM. &quot;,&quot;id&quot;:2,&quot;img&quot;:&quot;imgs/Lumia_1520.jpg&quot;,&quot;price&quot;:820.0,&quot;title&quot;:&quot;Nokia lumia 1520&quot;}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;id&quot;:2}</queryString>
+  <java.net.URL>https://api.demoblaze.com/view</java.net.URL>
+</httpSample>
+<httpSample t="762" it="0" lt="762" ct="470" ts="1767356706535" s="true" lb="Complete Purchase-533" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="464" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: a955002da1344fea8488e793b1b68e8a
+date: Fri, 02 Jan 2026 12:25:07 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/deletecart</java.net.URL>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="0" s="false" lb="google-ohttp-relay-safebrowsing.fastly-edge.com:443" rc="" rm="Received fatal alert: certificate_unknown&#xa;**ensure browser is set to accept the JMeter proxy certificate**" tn="" dt="" de="" by="1289" sc="1" ec="1" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">CONNECT google-ohttp-relay-safebrowsing.fastly-edge.com:443 HTTP/1.1&#xd;
+</samplerData>
+</sample>
+<httpSample t="829" it="0" lt="828" ct="471" ts="1767356707307" s="true" lb="Complete Purchase-534" rc="200" rm="OK" tn="" dt="text" de="" by="331" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+vary: Origin
+x-cloud-trace-context: 45d571d90f04e5d0907d3703ba85cb4b
+date: Fri, 02 Jan 2026 12:25:08 GMT
+server: Google Frontend
+Content-Length: 16
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 19
+</requestHeader>
+  <responseData class="java.lang.String">&quot;Item deleted.&quot;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;cookie&quot;:&quot;Abnaby&quot;}</queryString>
+  <java.net.URL>https://api.demoblaze.com/deletecart</java.net.URL>
+</httpSample>
+<httpSample t="500" it="0" lt="0" ct="285" ts="1767356707727" s="true" lb="Complete Purchase-535" rc="304" rm="Not Modified" tn="" dt="" de="" by="184" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 02 Jan 2026 12:25:08 GMT
+Expires: Fri, 02 Jan 2026 12:25:18 GMT
+Age: 0
+ETag: &quot;cET1bQ&quot;
+Cache-Control: public, max-age=10
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://demoblaze.com/cart.html
+If-None-Match: &quot;cET1bQ&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2; tokenp_=QWJuYWJ5MTc2Nzk1Ng==</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/index.html</java.net.URL>
+</httpSample>
+<httpSample t="497" it="0" lt="0" ct="281" ts="1767356709800" s="true" lb="Complete Purchase-551" rc="304" rm="Not Modified" tn="" dt="" de="" by="184" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 02 Jan 2026 12:25:10 GMT
+Expires: Fri, 02 Jan 2026 12:25:20 GMT
+Age: 0
+ETag: &quot;cET1bQ&quot;
+Cache-Control: public, max-age=10
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/index.html
+If-None-Match: &quot;cET1bQ&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Accept: application/json, text/javascript, */*; q=0.01
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+X-Requested-With: XMLHttpRequest
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2; tokenp_=QWJuYWJ5MTc2Nzk1Ng==</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/config.json</java.net.URL>
+</httpSample>
+<httpSample t="763" it="0" lt="763" ct="471" ts="1767356710310" s="true" lb="Complete Purchase-552" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="468" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: 3a54ea66de34c274a14602029db3d5eb;o=1
+date: Fri, 02 Jan 2026 12:25:10 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/check</java.net.URL>
+</httpSample>
+<httpSample t="782" it="0" lt="781" ct="470" ts="1767356710314" s="true" lb="Complete Purchase-553" rc="200" rm="OK" tn="" dt="text" de="" by="1451" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: 729c3c2a5d00d09f88e65836a510cbbf
+date: Fri, 02 Jan 2026 12:25:10 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Items&quot;:[{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420\n processor and it comes with 3GB of RAM. The phone packs 32GB of \ninternal storage cannot be expanded. &quot;,&quot;id&quot;:1,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:360.0,&quot;title&quot;:&quot;Samsung galaxy s6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM. &quot;,&quot;id&quot;:2,&quot;img&quot;:&quot;imgs/Lumia_1520.jpg&quot;,&quot;price&quot;:820.0,&quot;title&quot;:&quot;Nokia lumia 1520&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM.&quot;,&quot;id&quot;:3,&quot;img&quot;:&quot;imgs/Nexus_6.jpg&quot;,&quot;price&quot;:650.0,&quot;title&quot;:&quot;Nexus 6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB \nof RAM. The phone packs 32GB of internal storage that can be expanded up\n to 200GB via a microSD card.&quot;,&quot;id&quot;:4,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:800.0,&quot;title&quot;:&quot;Samsung galaxy s7&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;It comes with 1GB of RAM. The phone packs 16GB of internal storage \ncannot be expanded. As far as the cameras are concerned, the Apple \niPhone 6 packs a 8-megapixel primary camera on the rear and a \n1.2-megapixel front shooter for selfies.&quot;,&quot;id&quot;:5,&quot;img&quot;:&quot;imgs/iphone_6.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Iphone 6 32gb&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;Sony Xperia Z5 Dual smartphone was launched in September 2015. The phone\n comes with a 5.20-inch touchscreen display with a resolution of 1080 \npixels by 1920 pixels at a PPI of 424 pixels per inch.&quot;,&quot;id&quot;:6,&quot;img&quot;:&quot;imgs/xperia_z5.jpg&quot;,&quot;price&quot;:320.0,&quot;title&quot;:&quot;Sony xperia z5&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 \nprocessor and it comes with 3GB of RAM. The phone packs 32GB of internal\n storage that can be expanded up to 128GB via a microSD card. &quot;,&quot;id&quot;:7,&quot;img&quot;:&quot;imgs/HTC_M9.jpg&quot;,&quot;price&quot;:700.0,&quot;title&quot;:&quot;HTC One M9&quot;},{&quot;cat&quot;:&quot;notebook&quot;,&quot;desc&quot;:&quot;Sony is so confident that the VAIO S is a superior ultraportable laptop \nthat the company proudly compares the notebook to Apple&apos;s 13-inch \nMacBook Pro. And in a lot of ways this notebook is better, thanks to a \nlighter weight.&quot;,&quot;id&quot;:8,&quot;img&quot;:&quot;imgs/sony_vaio_5.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Sony vaio i5&quot;},{&quot;cat&quot;:&quot;notebook&quot;,&quot;desc&quot;:&quot;REVIEW\n \nSony is so confident that the VAIO S is a superior \nultraportable laptop that the company proudly compares the notebook to \nApple&apos;s 13-inch MacBook Pro. And in a lot of ways this notebook is \nbetter, thanks to a lighter weight, higher-resolution display, more \nstorage space, and a Blu-ray drive. &quot;,&quot;id&quot;:9,&quot;img&quot;:&quot;imgs/sony_vaio_5.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Sony vaio i7\n&quot;}],&quot;LastEvaluatedKey&quot;:{&quot;id&quot;:&quot;9&quot;}}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/entries</java.net.URL>
+</httpSample>
+<httpSample t="776" it="0" lt="775" ct="471" ts="1767356711080" s="true" lb="Complete Purchase-554" rc="200" rm="OK" tn="" dt="text" de="" by="657" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: a8321c0873e18328d821e4250823bda4
+date: Fri, 02 Jan 2026 12:25:11 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 32
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Item&quot;:{&quot;expiration&quot;:1767956,&quot;token&quot;:&quot;QWJuYWJ5MTc2Nzk1Ng==&quot;,&quot;username&quot;:&quot;Abnaby&quot;}}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;token&quot;:&quot;QWJuYWJ5MTc2Nzk1Ng==&quot;}</queryString>
+  <java.net.URL>https://api.demoblaze.com/check</java.net.URL>
+</httpSample>
+<httpSample t="764" it="0" lt="764" ct="580" ts="1767356714510" s="true" lb="Logo-562" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="849" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Report-To: {&quot;group&quot;:&quot;ntbdioescrec:47:0&quot;,&quot;max_age&quot;:2592000,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://csp.withgoogle.com/csp/report-to/scaffolding/ntbdioescrec:47:0&quot;}],}
+NEL: {&quot;failure_fraction&quot;:1,&quot;include_subdomains&quot;:false,&quot;max_age&quot;:300,&quot;report_to&quot;:&quot;nel&quot;,&quot;success_fraction&quot;:0.25}
+Location: https://e2c34.gcp.gvt2.com/nel/
+Content-Type: application/javascript; charset=utf-8
+Content-Security-Policy-Report-Only: script-src &apos;none&apos;; form-action &apos;none&apos;; frame-src &apos;none&apos;; report-uri https://csp.withgoogle.com/csp/scaffolding/ntbdioescrec:47:0
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to=ntbdioescrec:47:0
+Date: Fri, 02 Jan 2026 12:25:15 GMT
+Server: Domain Reliability Server
+Content-Length: 0
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Host: beacons.gcp.gvt2.com
+Content-Type: application/json; charset=utf-8
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Content-Length: 637
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;entries&quot;:[{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;http_response_code&quot;:200,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;SPDY&quot;,&quot;request_age_ms&quot;:504387,&quot;request_elapsed_ms&quot;:607,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://beacons.gcp.gvt2.com/domainreliability/upload&quot;,&quot;was_proxied&quot;:false},{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;http_response_code&quot;:200,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;HTTP&quot;,&quot;request_age_ms&quot;:60995,&quot;request_elapsed_ms&quot;:827,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://beacons.gcp.gvt2.com/domainreliability/upload&quot;,&quot;was_proxied&quot;:true}],&quot;reporter&quot;:&quot;chrome&quot;}</queryString>
+  <java.net.URL>https://beacons.gcp.gvt2.com/domainreliability/upload</java.net.URL>
+</httpSample>
+<httpSample t="777" it="0" lt="776" ct="471" ts="1767356716567" s="true" lb="Logout-563" rc="200" rm="OK" tn="" dt="text" de="" by="1537" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: e0ec6a4bf3910a06c277cae8ba429c67
+date: Fri, 02 Jan 2026 12:25:17 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Items&quot;:[{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420\n processor and it comes with 3GB of RAM. The phone packs 32GB of \ninternal storage cannot be expanded. &quot;,&quot;id&quot;:1,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:360.0,&quot;title&quot;:&quot;Samsung galaxy s6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM. &quot;,&quot;id&quot;:2,&quot;img&quot;:&quot;imgs/Lumia_1520.jpg&quot;,&quot;price&quot;:820.0,&quot;title&quot;:&quot;Nokia lumia 1520&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM.&quot;,&quot;id&quot;:3,&quot;img&quot;:&quot;imgs/Nexus_6.jpg&quot;,&quot;price&quot;:650.0,&quot;title&quot;:&quot;Nexus 6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB \nof RAM. The phone packs 32GB of internal storage that can be expanded up\n to 200GB via a microSD card.&quot;,&quot;id&quot;:4,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:800.0,&quot;title&quot;:&quot;Samsung galaxy s7&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;It comes with 1GB of RAM. The phone packs 16GB of internal storage \ncannot be expanded. As far as the cameras are concerned, the Apple \niPhone 6 packs a 8-megapixel primary camera on the rear and a \n1.2-megapixel front shooter for selfies.&quot;,&quot;id&quot;:5,&quot;img&quot;:&quot;imgs/iphone_6.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Iphone 6 32gb&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;Sony Xperia Z5 Dual smartphone was launched in September 2015. The phone\n comes with a 5.20-inch touchscreen display with a resolution of 1080 \npixels by 1920 pixels at a PPI of 424 pixels per inch.&quot;,&quot;id&quot;:6,&quot;img&quot;:&quot;imgs/xperia_z5.jpg&quot;,&quot;price&quot;:320.0,&quot;title&quot;:&quot;Sony xperia z5&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 \nprocessor and it comes with 3GB of RAM. The phone packs 32GB of internal\n storage that can be expanded up to 128GB via a microSD card. &quot;,&quot;id&quot;:7,&quot;img&quot;:&quot;imgs/HTC_M9.jpg&quot;,&quot;price&quot;:700.0,&quot;title&quot;:&quot;HTC One M9&quot;},{&quot;cat&quot;:&quot;notebook&quot;,&quot;desc&quot;:&quot;Sony is so confident that the VAIO S is a superior ultraportable laptop \nthat the company proudly compares the notebook to Apple&apos;s 13-inch \nMacBook Pro. And in a lot of ways this notebook is better, thanks to a \nlighter weight.&quot;,&quot;id&quot;:8,&quot;img&quot;:&quot;imgs/sony_vaio_5.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Sony vaio i5&quot;},{&quot;cat&quot;:&quot;notebook&quot;,&quot;desc&quot;:&quot;REVIEW\n \nSony is so confident that the VAIO S is a superior \nultraportable laptop that the company proudly compares the notebook to \nApple&apos;s 13-inch MacBook Pro. And in a lot of ways this notebook is \nbetter, thanks to a lighter weight, higher-resolution display, more \nstorage space, and a Blu-ray drive. &quot;,&quot;id&quot;:9,&quot;img&quot;:&quot;imgs/sony_vaio_5.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Sony vaio i7\n&quot;}],&quot;LastEvaluatedKey&quot;:{&quot;id&quot;:&quot;9&quot;}}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/entries</java.net.URL>
+</httpSample>
+
+<httpSample t="769" it="0" lt="769" ct="501" ts="1767360007433" s="true" lb="N-Logout-564" rc="200" rm="OK" tn="" dt="text" de="UTF-8" by="2608" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Fri, 02 Jan 2026 13:20:08 GMT
+Pragma: no-cache
+Expires: -1
+Cache-Control: no-cache, must-revalidate
+Content-Type: text/javascript; charset=UTF-8
+Strict-Transport-Security: max-age=31536000
+Content-Security-Policy: object-src &apos;none&apos;;base-uri &apos;self&apos;;script-src &apos;nonce-BKnZnILMmRU6j67im8Jn-g&apos; &apos;strict-dynamic&apos; &apos;report-sample&apos; &apos;unsafe-eval&apos; &apos;unsafe-inline&apos; https: http:;report-uri https://csp.withgoogle.com/csp/gws/cdt1
+Cross-Origin-Opener-Policy: same-origin-allow-popups; report-to=&quot;gws&quot;
+Report-To: {&quot;group&quot;:&quot;gws&quot;,&quot;max_age&quot;:2592000,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://csp.withgoogle.com/csp/report-to/gws/cdt1&quot;}]}
+Accept-CH: Sec-CH-Prefers-Color-Scheme
+Accept-CH: Downlink
+Accept-CH: RTT
+Accept-CH: Sec-CH-UA-Form-Factors
+Accept-CH: Sec-CH-UA-Platform
+Accept-CH: Sec-CH-UA-Platform-Version
+Accept-CH: Sec-CH-UA-Full-Version
+Accept-CH: Sec-CH-UA-Arch
+Accept-CH: Sec-CH-UA-Model
+Accept-CH: Sec-CH-UA-Bitness
+Accept-CH: Sec-CH-UA-Full-Version-List
+Accept-CH: Sec-CH-UA-WoW64
+Permissions-Policy: unload=()
+Content-Disposition: attachment; filename=&quot;f.txt&quot;
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Transfer-Encoding: chunked
+Set-Cookie: SIDCC=AKEyXzVKGCGuI1YgL1dtOsHEPm1ZhV9LWQjpTBM2Jco_EECHPXx1lmHifzkoY0G6wgoIyXOzL8c; expires=Sat, 02-Jan-2027 13:20:08 GMT; path=/; domain=.google.com; priority=high
+Set-Cookie: __Secure-1PSIDCC=AKEyXzV60izRYtq8_iu_KkOq8c5fEMCLfwwveE3xtIURSbg10nGxfXEpJMTCcMWBExGtTZdfTUTV; expires=Sat, 02-Jan-2027 13:20:08 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
+Set-Cookie: __Secure-3PSIDCC=AKEyXzUgCImBMIP_uRDqcaEBWVaYVgZ5MhC7d1VttxJnzG0HcYLfmN19zwOYh1sxg5nSa1D0J8GY; expires=Sat, 02-Jan-2027 13:20:08 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+Content-Encoding: br
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+X-Client-Data: CJS2yQEIpbbJAQipncoBCLH3ygEIlqHLAQiFoM0BCJaMzwEIpZHPAQimms8BCLaizwEI1KPPAQiRpM8BCJqlzwEYsobPARjxos8B
+Host: www.google.com
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">)]}&apos;
+[&quot;&quot;,[&quot;where cookie data generated from client side&quot;,&quot;ahmed-fawzy-devops/automated-testing-framework-for-a-web-application-depi&quot;,&quot;demoblaze jmeter github&quot;,&quot;demoblaze automation github&quot;,&quot;add local host to foxyproxy extension&quot;,&quot;foxyproxy extension&quot;,&quot;denoblaze test github&quot;,&quot;complete purchase&quot;],[&quot;history&quot;,&quot;history&quot;,&quot;history&quot;,&quot;history&quot;,&quot;history&quot;,&quot;history&quot;,&quot;history&quot;,&quot;history&quot;],[],{&quot;google:clientdata&quot;:{&quot;bpc&quot;:false,&quot;tlw&quot;:false},&quot;google:suggestdetail&quot;:[{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003dwhere+cookie+data+generated+from+client+side\u0026deltok\u003dAMc44K4hP_Urh7mLVqVwDXoGTRxoYYb1Cg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003dahmed-fawzy-devops/automated-testing-framework-for-a-web-application-depi\u0026deltok\u003dAMc44K6Z7n9ggDFnyuJBjF1QPGiU55afng\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003ddemoblaze+jmeter+github\u0026deltok\u003dAMc44K7DG6Gh_PqMupATfGfBwaje6kaXTQ\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003ddemoblaze+automation+github\u0026deltok\u003dAMc44K4C73tiRo5kBKyuyQqlozkYVW2kmg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003dadd+local+host+to+foxyproxy+extension\u0026deltok\u003dAMc44K6UDukuigfL1xkOk3fUqoF_rRb-Bg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003dfoxyproxy+extension\u0026deltok\u003dAMc44K749oMed36VVjmpJ2NRu11d8tr3Gg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003ddenoblaze+test+github\u0026deltok\u003dAMc44K4WxMBf2cWU9B0bIhbsvpNDtwejbg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000},{&quot;du&quot;:&quot;/complete/deleteitems?client\u003dchrome-omni\u0026delq\u003dcomplete+purchase\u0026deltok\u003dAMc44K6guZnqUKi-FVp6fECfGkkMoHHMFg\u0026gs_ri\u003dchrome-ext-ansg&quot;,&quot;zl&quot;:40000}],&quot;google:suggesteventid&quot;:&quot;-1513481632898916422&quot;,&quot;google:suggestrelevance&quot;:[704,703,702,701,700,652,651,650],&quot;google:suggestsubtypes&quot;:[[362,39],[362,39],[362,39],[362,39],[362,39],[362,39],[362,39],[362,39]],&quot;google:suggesttype&quot;:[&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;,&quot;PERSONALIZED_QUERY&quot;],&quot;google:verbatimrelevance&quot;:851}]</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">HSID=AyJ_ADIzpqoKfsbjg; SSID=AMd8q3Y1bfREQ5D9V; APISID=syCnWW99x-dlaKlV/Al7kTIscYci0h7fzx; SAPISID=Xl4EV7Q0EKO0CpBG/AzHiZQZEpIOrCiQSG; __Secure-1PAPISID=Xl4EV7Q0EKO0CpBG/AzHiZQZEpIOrCiQSG; __Secure-3PAPISID=Xl4EV7Q0EKO0CpBG/AzHiZQZEpIOrCiQSG; SEARCH_SAMESITE=CgQIxJ8B; SID=g.a0004ggkYWnEHWcySm6jZm_xvtngryQbZCaQpWk59oQ4w0vnvJu_snZdHb1NaaDgOCVJSGOb8QACgYKATgSARESFQHGX2MiFXvFmpouNf7HkrUepnwzaRoVAUF8yKpdD7LI16LV7RAryV47mqSh0076; __Secure-1PSID=g.a0004ggkYWnEHWcySm6jZm_xvtngryQbZCaQpWk59oQ4w0vnvJu_dAGYF4xb5VMTflC8pKQm_wACgYKASESARESFQHGX2MirM-riiS1lodEHmpc1JqqMxoVAUF8yKoRCHQ9wsp908m9IGVwdZKL0076; __Secure-3PSID=g.a0004ggkYWnEHWcySm6jZm_xvtngryQbZCaQpWk59oQ4w0vnvJu_50rA9hWYnszJaS17Ovx2DAACgYKAdQSARESFQHGX2Mi4x_4mw2r8kKPXxR9nA7AohoVAUF8yKoubtaz4QO5GochQnZDDKJZ0076; __Secure-BUCKET=CMMB; AEC=AaJma5t6VeGnu4FRL_gUX4GJ8DmL24T41Uha_9nwsDRL9PECttp_datmGw; __Secure-ENID=30.SE=HnXcjmnJzCrocDE3hyf8oHpMEW6S0mCeasXH07hFyrkA_adjpGH88PNW3PWdZJIJj1_IO_VL-Ch4cItzPyT8_LSQp-m3VtmcYlEZTI487BMwblCnfi2-XsUku7JgZtyDwLls6EIDrl9TLpkS42ixJKMRMIuWq21oJsHg__BNPW8THm6McF7ysgN0WFx63zqdUBehqiWxCBfBXtNvEo56lfwnVWt1BAarQS_Hoz7lGtiKLKOJIVH3fqHDPyRWmAh2B6Nv9GKKWdTKUIRLHHAEU-jHyEiz15kfjBfuXhC01idJuHfoxMh6Ll2NgRIIYxgpyIgQRhDY; NID=527=LB-TBLRidTb-0AVO8GOSSPFwQrUwH14qqmM2putaN5LTG87Co5DOHC1Gq0nY4Y5xuFE1nh-vAfIhbIdJwW4C24SodWAe6xIR1GkCn1DDfaT_URaAw7Jq-_Fug62pEOBHIzK4wrkYXQNs56PGCY1mMw9mPZA-LLSh5TMOBDbZktvGjRcmVSpRNBhsvBIkUoEoGFweq__y2MYRwBmiPh_N7gL6ditSD6liauos_OT9S5tVlCj7dDHOpos4S1XE8YgA5tiPnFerqpYqTC00w_r8cnuvznaKvP5D3rmCdsDkKlwHWF1CIYt7px6HqeD06XfaIeT3y84v0Mq_CQsGdRerD-n_qSTYsBk_9t1jZyMviqY4Xrf_GZO1nMfuJM-SNWp2EuFEJAL3A_KMeM4D1lHorYabr5gUQUgzntWUd9eYeEVBDaCUkWOhCm36iOX8kEsXu2BtS3-pWbIB1GhbZebWb1geKov8NtTznMyKhtJeirNUP8ADzQ6p61kJ6XWv_5eMVcUf3GL_9RedocVHogYT4IuHqdiz5lslGo69QCsNqN3ZefsFC48IAH4JWQi6ku_9; __Secure-1PSIDTS=sidts-CjEBflaCdRlCgP6DBWT0uJu0TivkYvHodFVoAZ14wTDQRoojkLXCsghbcXpHofSFTGgvEAA; __Secure-3PSIDTS=sidts-CjEBflaCdRlCgP6DBWT0uJu0TivkYvHodFVoAZ14wTDQRoojkLXCsghbcXpHofSFTGgvEAA; SIDCC=AKEyXzV9ktTcLIzGOv7clpJmCYRxtj6UXSBjYjWeFzTbrVl81hDVgUfjGEUuqSRn6-jZG7PZZuY; __Secure-1PSIDCC=AKEyXzU5BtqrOTjPRsEy_Bq95nCAxFG52fOj-4GRNSoDfCHwOJe5F-78b0S1mS8YjDYuvAug9mRT; __Secure-3PSIDCC=AKEyXzVwXLtlqoRIFJZ2czyNJ0ivwl_VLX1e-390qV0_QIrIcQVlhZiA3MRgFmDCLCR_ocRib0n6</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://www.google.com/complete/search?client=chrome-omni&amp;gs_ri=chrome-ext-ansg&amp;xssi=t&amp;q=&amp;oit=0&amp;gs_rn=42&amp;sugkey=AIzaSyA2KlwBX3mkFo30om9LUFYQhpqLoa_BNhE</java.net.URL>
+</httpSample>
+<httpSample t="835" it="0" lt="835" ct="629" ts="1767360008219" s="true" lb="N-Logout-565" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="806" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Report-To: {&quot;group&quot;:&quot;ntbdioescrec:47:0&quot;,&quot;max_age&quot;:2592000,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://csp.withgoogle.com/csp/report-to/scaffolding/ntbdioescrec:47:0&quot;}],}
+NEL: {&quot;failure_fraction&quot;:1,&quot;include_subdomains&quot;:false,&quot;max_age&quot;:300,&quot;report_to&quot;:&quot;nel&quot;,&quot;success_fraction&quot;:0.25}
+Content-Type: application/javascript; charset=utf-8
+Content-Security-Policy-Report-Only: script-src &apos;none&apos;; form-action &apos;none&apos;; frame-src &apos;none&apos;; report-uri https://csp.withgoogle.com/csp/scaffolding/ntbdioescrec:47:0
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to=ntbdioescrec:47:0
+Date: Fri, 02 Jan 2026 13:20:08 GMT
+Server: Domain Reliability Server
+Content-Length: 0
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Host: beacons.gcp.gvt2.com
+Content-Type: application/json; charset=utf-8
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Content-Length: 637
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;entries&quot;:[{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;http_response_code&quot;:200,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;QUIC&quot;,&quot;request_age_ms&quot;:83566,&quot;request_elapsed_ms&quot;:465,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://beacons.gcp.gvt2.com/domainreliability/upload&quot;,&quot;was_proxied&quot;:false},{&quot;failure_data&quot;:{&quot;custom_error&quot;:&quot;net::ERR_ABORTED&quot;},&quot;http_response_code&quot;:200,&quot;network_changed&quot;:false,&quot;protocol&quot;:&quot;QUIC&quot;,&quot;request_age_ms&quot;:62028,&quot;request_elapsed_ms&quot;:387,&quot;sample_rate&quot;:1.0,&quot;server_ip&quot;:&quot;&quot;,&quot;status&quot;:&quot;aborted&quot;,&quot;url&quot;:&quot;https://beacons.gcp.gvt2.com/domainreliability/upload&quot;,&quot;was_proxied&quot;:false}],&quot;reporter&quot;:&quot;chrome&quot;}</queryString>
+  <java.net.URL>https://beacons.gcp.gvt2.com/domainreliability/upload</java.net.URL>
+</httpSample>
+<httpSample t="607" it="0" lt="0" ct="392" ts="1767360011154" s="true" lb="N-Logout-567" rc="304" rm="Not Modified" tn="" dt="" de="" by="184" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 02 Jan 2026 13:20:11 GMT
+Expires: Fri, 02 Jan 2026 13:20:21 GMT
+Age: 0
+ETag: &quot;cET1bQ&quot;
+Cache-Control: public, max-age=10
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: navigate
+Referer: https://demoblaze.com/index.html
+If-None-Match: &quot;cET1bQ&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Sec-Fetch-User: ?1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+Upgrade-Insecure-Requests: 1
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: document
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/index.html</java.net.URL>
+</httpSample>
+<httpSample t="167" it="0" lt="0" ct="123" ts="1767360013547" s="true" lb="N-Logout-585" rc="304" rm="Not Modified" tn="" dt="" de="" by="488" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Connection: close
+Last-Modified: Mon, 22 Dec 2025 17:35:31 GMT
+x-amz-server-side-encryption: AES256
+Server: AmazonS3
+Date: Fri, 02 Jan 2026 13:15:43 GMT
+Cache-Control: max-age=300
+ETag: W/&quot;68ebde1d6e14ad3c274334785485ea27&quot;
+Vary: accept-encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 7f36072b6014cbe767e89454ff38982e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: CAI50-P3
+X-Amz-Cf-Id: gv8Wt8LDp8PlcJ5G2aFWtdus5IgnK4K55q7Vmdg8Uzh5e8fP3lr9Jg==
+Age: 274
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Sec-Fetch-Storage-Access: active
+If-None-Match: W/&quot;68ebde1d6e14ad3c274334785485ea27&quot;
+Sec-Fetch-Site: none
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Accept: */*
+If-Modified-Since: Mon, 22 Dec 2025 17:35:31 GMT
+Host: config.extension.grammarly.com
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">tdi=farax2pe8xuo0vvgg; gnar_containerId=dwcj98uoq6t606g0; grauth=AABP1aQ2MhY3Yof_QA3aLwaFcAK2yIZWdznddfxYQJZXJVjfVl-Q6t4xxV12ZPrMj8TMLyPFdwxBmh2V; csrf-token=AABP1anyKtV5xQ+09bge5Mrz87wMdDq+feFHEw</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://config.extension.grammarly.com/browserplugin/config.json</java.net.URL>
+</httpSample>
+<httpSample t="523" it="0" lt="0" ct="301" ts="1767360013505" s="true" lb="N-Logout-584" rc="304" rm="Not Modified" tn="" dt="" de="" by="184" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 304 Not Modified
+Date: Fri, 02 Jan 2026 13:20:13 GMT
+Expires: Fri, 02 Jan 2026 13:20:23 GMT
+Age: 0
+ETag: &quot;cET1bQ&quot;
+Cache-Control: public, max-age=10
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/index.html
+If-None-Match: &quot;cET1bQ&quot;
+Sec-Fetch-Site: same-origin
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Accept: application/json, text/javascript, */*; q=0.01
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: demoblaze.com
+X-Requested-With: XMLHttpRequest
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">user=97f87890-4d38-cba8-8f53-0ebbb7f79de2</cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://demoblaze.com/config.json</java.net.URL>
+</httpSample>
+<httpSample t="1042" it="0" lt="1042" ct="737" ts="1767360014043" s="true" lb="N-Logout-586" rc="200" rm="OK" tn="" dt="text" de="" by="1654" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+vary: Accept-Encoding
+vary: Origin
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+x-cloud-trace-context: da8d0a569c63e84102d709649ba70abf
+date: Fri, 02 Jan 2026 13:20:14 GMT
+server: Google Frontend
+Connection: close
+Transfer-Encoding: chunked
+content-encoding: gzip
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;Items&quot;:[{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420\n processor and it comes with 3GB of RAM. The phone packs 32GB of \ninternal storage cannot be expanded. &quot;,&quot;id&quot;:1,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:360.0,&quot;title&quot;:&quot;Samsung galaxy s6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM. &quot;,&quot;id&quot;:2,&quot;img&quot;:&quot;imgs/Lumia_1520.jpg&quot;,&quot;price&quot;:820.0,&quot;title&quot;:&quot;Nokia lumia 1520&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM.&quot;,&quot;id&quot;:3,&quot;img&quot;:&quot;imgs/Nexus_6.jpg&quot;,&quot;price&quot;:650.0,&quot;title&quot;:&quot;Nexus 6&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB \nof RAM. The phone packs 32GB of internal storage that can be expanded up\n to 200GB via a microSD card.&quot;,&quot;id&quot;:4,&quot;img&quot;:&quot;imgs/galaxy_s6.jpg&quot;,&quot;price&quot;:800.0,&quot;title&quot;:&quot;Samsung galaxy s7&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;It comes with 1GB of RAM. The phone packs 16GB of internal storage \ncannot be expanded. As far as the cameras are concerned, the Apple \niPhone 6 packs a 8-megapixel primary camera on the rear and a \n1.2-megapixel front shooter for selfies.&quot;,&quot;id&quot;:5,&quot;img&quot;:&quot;imgs/iphone_6.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Iphone 6 32gb&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;Sony Xperia Z5 Dual smartphone was launched in September 2015. The phone\n comes with a 5.20-inch touchscreen display with a resolution of 1080 \npixels by 1920 pixels at a PPI of 424 pixels per inch.&quot;,&quot;id&quot;:6,&quot;img&quot;:&quot;imgs/xperia_z5.jpg&quot;,&quot;price&quot;:320.0,&quot;title&quot;:&quot;Sony xperia z5&quot;},{&quot;cat&quot;:&quot;phone&quot;,&quot;desc&quot;:&quot;The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 \nprocessor and it comes with 3GB of RAM. The phone packs 32GB of internal\n storage that can be expanded up to 128GB via a microSD card. &quot;,&quot;id&quot;:7,&quot;img&quot;:&quot;imgs/HTC_M9.jpg&quot;,&quot;price&quot;:700.0,&quot;title&quot;:&quot;HTC One M9&quot;},{&quot;cat&quot;:&quot;notebook&quot;,&quot;desc&quot;:&quot;Sony is so confident that the VAIO S is a superior ultraportable laptop \nthat the company proudly compares the notebook to Apple&apos;s 13-inch \nMacBook Pro. And in a lot of ways this notebook is better, thanks to a \nlighter weight.&quot;,&quot;id&quot;:8,&quot;img&quot;:&quot;imgs/sony_vaio_5.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Sony vaio i5&quot;},{&quot;cat&quot;:&quot;notebook&quot;,&quot;desc&quot;:&quot;REVIEW\n \nSony is so confident that the VAIO S is a superior \nultraportable laptop that the company proudly compares the notebook to \nApple&apos;s 13-inch MacBook Pro. And in a lot of ways this notebook is \nbetter, thanks to a lighter weight, higher-resolution display, more \nstorage space, and a Blu-ray drive. &quot;,&quot;id&quot;:9,&quot;img&quot;:&quot;imgs/sony_vaio_5.jpg&quot;,&quot;price&quot;:790.0,&quot;title&quot;:&quot;Sony vaio i7\n&quot;}],&quot;LastEvaluatedKey&quot;:{&quot;id&quot;:&quot;9&quot;}}
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/entries</java.net.URL>
+</httpSample>
+
+<httpSample t="897" it="0" lt="897" ct="611" ts="1767361466965" s="true" lb="Signup-596" rc="200" rm="OK" tn="" dt="text" de="utf-8" by="468" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: text/html; charset=utf-8
+allow: POST, OPTIONS
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+access-control-allow-headers: content-type
+access-control-allow-methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT
+vary: Origin
+x-cloud-trace-context: 65d46cc8d12c3ebccb1a5204579b90e3;o=1
+date: Fri, 02 Jan 2026 13:44:27 GMT
+server: Google Frontend
+Content-Length: 0
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Access-Control-Request-Method: POST
+Accept: */*
+Host: api.demoblaze.com
+Access-Control-Request-Headers: content-type
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+</requestHeader>
+  <responseData class="java.lang.String"></responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">OPTIONS</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>https://api.demoblaze.com/signup</java.net.URL>
+</httpSample>
+<httpSample t="1030" it="0" lt="1030" ct="685" ts="1767361467870" s="true" lb="Signup-597" rc="200" rm="OK" tn="" dt="text" de="" by="317" sc="1" ec="0" ng="0" na="0" hn="Heba-Abdelnaby">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+content-type: application/json
+access-control-allow-origin: https://demoblaze.com
+access-control-allow-credentials: true
+vary: Origin
+x-cloud-trace-context: 906d8a4c7c28866d28507eccfd80eb3e
+date: Fri, 02 Jan 2026 13:44:28 GMT
+server: Google Frontend
+Content-Length: 3
+Connection: close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Sec-Fetch-Mode: cors
+Referer: https://demoblaze.com/
+Sec-Fetch-Site: same-site
+Accept-Language: en-US,en;q=0.9,ar;q=0.8
+Origin: https://demoblaze.com
+Accept: */*
+sec-ch-ua: &quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: &quot;Windows&quot;
+Host: api.demoblaze.com
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br, zstd
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Sec-Fetch-Dest: empty
+Content-Length: 48
+</requestHeader>
+  <responseData class="java.lang.String">&quot;&quot;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&quot;username&quot;:&quot;AbnabyT&quot;,&quot;password&quot;:&quot;MTIzNDU2Nzg=&quot;}</queryString>
+  <java.net.URL>https://api.demoblaze.com/signup</java.net.URL>
+</httpSample>
+</testResults>
