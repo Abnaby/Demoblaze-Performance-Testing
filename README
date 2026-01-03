@@ -1,0 +1,110 @@
+# JMeter Performance Testing for BlazeDemo
+
+## Overview
+This test plan is created **for educational and learning purposes**. The primary goal of this project is to **explore, understand, and practice using Apache JMeter**, rather than to execute a full production-grade performance or load test.
+
+The test plan focuses on **simulating realistic user behavior** across key user flows in the BlazeDemo application, helping to understand how JMeter components work together.
+
+---
+
+## Technologies Used
+- **Apache JMeter** – Load and performance testing tool used to simulate user activity.
+- **Java (JDK)** – Required to run Apache JMeter.
+
+---
+
+## Setup Instructions
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Abnaby/Demoblaze-Performance-Testing.git
+   cd Demoblaze-Performance-Testing
+   ```
+
+2. Install **Apache JMeter** and **Java (JDK)** if they are not already installed:
+   - Apache JMeter: https://jmeter.apache.org/
+   - Java JDK: https://www.oracle.com/java/technologies/javase-jdk11-downloads.html
+
+3. Launch the JMeter GUI:
+   - Navigate to the JMeter `bin` directory
+   - Run `jmeter.bat` (Windows) or `jmeter` (Linux / macOS)
+
+4. Open the test plan file:
+   ```
+   Scripts/Test Plan.jmx
+   ```
+
+---
+
+## Test Scenarios
+This project simulates a **realistic end-to-end user journey** on the BlazeDemo website. The main flow includes the following actions:
+
+1. **Landing Page**  
+   Simulates users visiting the homepage to assess initial load behavior  
+   *(Currently disabled for experimentation purposes)*
+
+2. **Sign In**  
+   Users log in using credentials read from a CSV file.
+
+3. **Select Category & Product**  
+   - Products are selected dynamically  
+   - A **Loop Controller** is used to allow each user to add **X number of products** to the cart  
+   - The number of iterations can be easily configured to control cart size
+
+4. **Place Order**  
+   Simulates checkout and order submission.
+
+5. **Logout**  
+   Ends the user session gracefully as a tear down block.
+
+
+---
+
+## Test Data Management
+- **CSV Data Set Config** is used to supply user credentials.
+- Each virtual user logs in with **unique credentials** to:
+  - Avoid caching layer side effects
+  - Prevent session reuse
+  - Better simulate real concurrent users
+
+---
+
+## Controllers & Logic
+- **Loop Controller**
+  - Controls how many products each user adds to the cart
+  - Makes the test flexible and easily configurable
+- **Transaction Controllers**
+  - Group related requests into logical business transactions
+  - Help measure end-to-end execution time for user actions
+
+---
+
+## How to Run the Tests
+1. Navigate to the JMeter `bin` directory.
+2. Launch JMeter:
+   ```bash
+   jmeter.bat
+   ```
+3. Open the test plan:
+   ```
+   Scripts/Test Plan.jmx
+   ```
+4. Configure:
+   - Number of threads (users)
+   - Loop count
+   - CSV file path (if needed)
+5. Run the test using the **Start** button in JMeter.
+
+---
+
+## Notes
+- This project is intended **strictly for learning and experimentation**.
+- Results should not be considered representative of production performance.
+- The test plan is designed to be easily extended as JMeter knowledge grows.
+
+---
+
+## Known Issues 
+you can find know issues under `issues`  labeled with the prefix [KNWN].
+
+## Contributing  
+Bug reports, feature requests, and so on are always welcome. Feel free to leave a note in the Issues section.
